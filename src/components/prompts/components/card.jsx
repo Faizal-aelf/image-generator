@@ -8,7 +8,6 @@ const ImageCard = (props) => {
         return formattedData;
     }
     const downloadImage = (imageData) => {
-        alert(123)
         window.location.href = imageData;
     }
     return (

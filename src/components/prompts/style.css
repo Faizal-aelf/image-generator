@@ -1,0 +1,45 @@
+.container {
+    margin: 40px 20px 12px 20px;
+}
+.form-container {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 20px 20px 16px 20px;
+    margin: 10px auto 12px auto;
+}
+.form-textfield {
+    margin-bottom: 0;
+}
+.btn-container {
+    margin-top: 8px;
+}
+
+.image-list {
+    list-style: none;
+    gap: 12px;
+    margin-top: 40px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.image-list li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 8px
+}
+.card-title {
+    word-wrap: break-word;
+    overflow-wrap: break-word; 
+    font-size: 15px;
+    font-weight: bold;
+}
+.image-card {
+    border: 1px solid #ccc;
+}
+.revised-list {
+    margin: 15px 0 0 15px;
+    padding: 0;
+}
+.revised-list li {
+    margin: 0;
+    padding: 0;
+}

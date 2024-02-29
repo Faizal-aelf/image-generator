@@ -1,1 +1,1 @@
-export const GENERATE_IMAGE_API = "https://c924-202-156-61-238.ngrok-free.app/generate_image";
+export const GENERATE_IMAGE_API = "https://a5ab-202-156-61-238.ngrok-free.app/generate_image";

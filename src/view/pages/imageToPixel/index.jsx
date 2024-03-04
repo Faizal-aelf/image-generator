@@ -12,7 +12,8 @@ import {Slider, Box, TextField} from '@mui/material';
 import Pixelate from 'pixelate';
 
 // COMMON COMPONENT
-import {Loader, Empty} from '../../atom';
+import {Empty} from '../../atom';
+import {CardImage} from '../../molecules';
 import PageHeader from '../common/header/pageHeader';
 
 // STYLE IMPORT
@@ -79,8 +80,7 @@ const ImageToPixelPage = () => {
 
   return (
     <>
-      <PageHeader title='Image to Pixel' subtitle="Here's what you're looking at"></PageHeader>
-      { isLoading && <Loader/>} 
+      <PageHeader title='Image to Pixel' subtitle="Here's what you're looking at"  {...{isLoading}}></PageHeader>
       <Box className={classes.container}>
         <Box className={classes.controlLayer}>
           <TextField 
@@ -97,14 +97,22 @@ const ImageToPixelPage = () => {
         <Box className={classes.outputLayer}>
           {imageDataUrl ? (
             <Box className={classes.imageGroup}>
-              <Box className={classes.imageBox}>
-                <img onClick={() => handleImageModal(originalImageRef.current.src)} ref={originalImageRef} className={classes.pixelImage} src={pixelImageDataUrl} alt="Uploaded" />
-                <Box className={classes.imageTitle}>Original Image</Box>
-              </Box>
-              <Box className={classes.imageBox}>
-                <img onClick={() => handleImageModal(imageRef.current.src)} ref={imageRef} className={classes.pixelImage} src={imageDataUrl} alt="Uploaded"  />
-                <Box className={classes.imageTitle}>Pixelate Image</Box>
-              </Box>
+              <CardImage file={
+                {
+                  imageSrc: pixelImageDataUrl,
+                  imageRef: originalImageRef,
+                  title: 'Original Image',
+                  handleImageModal: handleImageModal,
+                }
+              }/>
+              <CardImage file={
+                {
+                  imageSrc: imageDataUrl,
+                  imageRef: imageRef,
+                  title: 'Pixelate Image',
+                  handleImageModal: handleImageModal
+                }
+              }/>
             </Box>
           ) : <Empty 
           title='No image uploaded' 

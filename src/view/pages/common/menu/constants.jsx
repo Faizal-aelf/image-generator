@@ -30,6 +30,18 @@ export const utilsMenuItems = [
         icon: <i className="fa fa-file-image-o"></i>,
         link: PATH.IMAGE_TO_PIXEL_PATH,
     },
+    {
+        id: 'WEBPCONVERTOR',
+        label: 'Webp Convertor',
+        icon: <i className="fa fa-compress"></i>,
+        link: PATH.WEBP_CONVERTOR_PATH,
+    },
+    {
+        id: 'REMOVEBACKGROUND',
+        label: 'Remove Background',
+        icon: <i className="fa fa-eraser"></i>,
+        link: PATH.REMOVE_BACKGROUND_PATH,
+    },
 ];
 
 export const helpMenuItems = [

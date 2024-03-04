@@ -9,6 +9,9 @@
 // GENERIC IMPORT
 import {Box} from '@mui/material';
 
+// COMPONENT IMPORT
+import {Loader} from '../../../atom';
+
 // STYLE IMPORT
 import useStyles from './styles';
 
@@ -17,10 +20,13 @@ const PageHeader = (props) => {
     const classes = useStyles();
 
     return (
-        <Box className={classes.pageHeaderContainer}>
-            <Box className={classes.pageHeaderTitle}>{props.title}</Box>
-            <Box className={classes.pageHeaderSubtitle}>{props.subtitle}</Box>
-        </Box>
+        <>
+            <Box className={classes.pageHeaderContainer}>
+                <Box className={classes.pageHeaderTitle}>{props.title}</Box>
+                <Box className={classes.pageHeaderSubtitle}>{props.subtitle}</Box>
+            </Box>
+            { props.isLoading && <Loader/>} 
+        </>
     )
 };
 export default PageHeader;

@@ -1,1 +1,3 @@
-export const GENERATE_IMAGE_API = "https://a5ab-202-156-61-238.ngrok-free.app/generate_image";
+export const IMAGE_FORMAT = {
+    WEBP: 'webp'
+};

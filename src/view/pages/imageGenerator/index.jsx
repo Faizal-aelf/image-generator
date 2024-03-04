@@ -11,7 +11,7 @@ import {Box, TextField, Button} from '@mui/material';
 import axios from 'axios';
 
 // COMMON COMPONENT
-import {Loader, Empty} from '../../atom';
+import {Empty} from '../../atom';
 import PageHeader from '../common/header/pageHeader';
 import ImageCard from './components/card';
 
@@ -19,7 +19,7 @@ import ImageCard from './components/card';
 import {data as MockData} from '../../../mockData/nftData';
 
 // UTILS
-import {GENERATE_IMAGE_API} from '../../../utils/constants';
+import {GENERATE_IMAGE_API} from '../../../api/constants';
 
 // STYLE IMPORT
 import './style.css';
@@ -57,8 +57,7 @@ const ImageGeneratorPage = () => {
 
   return (
     <>
-        <PageHeader title='Generate Image' subtitle="Here's what you're looking at"></PageHeader>
-        { isLoading && <Loader/>}
+        <PageHeader title='Generate Image' subtitle="Here's what you're looking at"  {...{isLoading}}></PageHeader>
         <Box className="form-container">
             <TextField 
                 value={message} 

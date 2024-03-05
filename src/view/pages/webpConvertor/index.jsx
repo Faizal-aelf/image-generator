@@ -10,7 +10,7 @@ import { useState } from 'react';
 import {Box, TextField} from '@mui/material';
 
 // COMMON COMPONENT
-import {Empty} from '../../atom';
+import {Empty, Container} from '../../atom';
 import {CardImage} from '../../molecules';
 import PageHeader from '../common/header/pageHeader';
 
@@ -70,7 +70,7 @@ const WebpConvertorPage = () => {
   };
 
   return (
-    <>
+    <Container>
       <PageHeader title='Webp Convertor' subtitle="Here's what you're looking at" {...{isLoading}}></PageHeader>
       <Box className={classes.controlLayer}>
         <TextField 
@@ -116,7 +116,7 @@ const WebpConvertorPage = () => {
         subtitle='Please upload image to convert into webp format' 
         icon={<i className="fa fa-upload"></i>}/>}
       </Box>
-    </>
+    </Container>
   );
 };
 

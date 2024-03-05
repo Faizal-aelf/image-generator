@@ -11,7 +11,7 @@ import imglyRemoveBackground from "@imgly/background-removal"
 import {Box, TextField, Button, Tooltip, IconButton} from '@mui/material';
 
 // COMMON COMPONENT
-import {Empty} from '../../atom';
+import {Empty, Container} from '../../atom';
 import {CardImage} from '../../molecules';
 import PageHeader from '../common/header/pageHeader';
 
@@ -32,7 +32,7 @@ const RemoveBackgroundPage = () => {
     updatedBgImageURL: null
   });
   const [isLoading, setLoading] = useState(false);
-  const [updatedColor, setUpdatedColor] = useState('#000000');
+  const [updatedColor, setUpdatedColor] = useState();
     
   const handleRemoveImageBG = (event) => {
     setLoading(true);
@@ -85,7 +85,7 @@ const RemoveBackgroundPage = () => {
   };
 
   return (
-    <>
+    <Container>
       <PageHeader title='Remove Background' subtitle="Here's what you're looking at" {...{isLoading}}></PageHeader>
       <Box className={classes.controlLayer}>
         <TextField 
@@ -129,7 +129,7 @@ const RemoveBackgroundPage = () => {
                       }
                   }}
                   />
-                  <Button variant="text" onClick={changeBackground(updatedColor)} disabled={!updatedColor}>Change background</Button>
+                  <Button variant="text" onClick={() => changeBackground(updatedColor)} disabled={!updatedColor}>Change background</Button>
                 </IconButton>
               </Tooltip>
             </Box>
@@ -149,7 +149,7 @@ const RemoveBackgroundPage = () => {
         subtitle='Please upload image to convert into webp format' 
         icon={<i className="fa fa-upload"></i>}/>}
       </Box>
-    </>
+    </Container>
   );
 };
 

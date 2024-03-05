@@ -1,3 +1,3 @@
 export const IMAGE_FORMAT = {
-    WEBP: 'webp'
+    WEBP: "webp"
 };

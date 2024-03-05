@@ -12,7 +12,7 @@ import {Slider, Box, TextField} from '@mui/material';
 import Pixelate from 'pixelate';
 
 // COMMON COMPONENT
-import {Empty} from '../../atom';
+import {Empty, Container} from '../../atom';
 import {CardImage} from '../../molecules';
 import PageHeader from '../common/header/pageHeader';
 
@@ -79,7 +79,7 @@ const ImageToPixelPage = () => {
   }
 
   return (
-    <>
+    <Container>
       <PageHeader title='Image to Pixel' subtitle="Here's what you're looking at"  {...{isLoading}}></PageHeader>
       <Box className={classes.container}>
         <Box className={classes.controlLayer}>
@@ -125,7 +125,7 @@ const ImageToPixelPage = () => {
         large={imageModal.src}
         onClose={onCloseModal}
       />}
-    </>
+    </Container>
   );
 };
 

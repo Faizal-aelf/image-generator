@@ -25,6 +25,12 @@ export const utilsMenuItems = [
         link: PATH.GENERATE_IMAGE_PATH,
     },
     {
+        id: 'PROMPTGENERATOR',
+        label: 'Prompt Generator',
+        icon: <i className="fa fa-commenting-o"></i>,
+        link: PATH.PROMPT_GENERATOR_PATH,
+    },
+    {
         id: 'IMAGETOPIXEL',
         label: 'Image to Pixel',
         icon: <i className="fa fa-file-image-o"></i>,

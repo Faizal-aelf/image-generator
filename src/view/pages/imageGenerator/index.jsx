@@ -11,7 +11,7 @@ import {Box, TextField, Button} from '@mui/material';
 import axios from 'axios';
 
 // COMMON COMPONENT
-import {Empty} from '../../atom';
+import {Empty, Container} from '../../atom';
 import PageHeader from '../common/header/pageHeader';
 import ImageCard from './components/card';
 
@@ -44,7 +44,7 @@ const ImageGeneratorPage = () => {
                 }
             );
             console.log("response: ", response);
-            setGeneratedPrompts(response.data); */
+            setGeneratedPrompts(response.data);*/
             setGeneratedPrompts(MockData)
         } catch (error) {
             console.error('Error generating prompts:', error);
@@ -56,7 +56,7 @@ const ImageGeneratorPage = () => {
     };
 
   return (
-    <>
+    <Container>
         <PageHeader title='Generate Image' subtitle="Here's what you're looking at"  {...{isLoading}}></PageHeader>
         <Box className="form-container">
             <TextField 
@@ -84,7 +84,7 @@ const ImageGeneratorPage = () => {
                 title='No image generated' 
                 subtitle='Please provide your prompt and generate the image' 
                 icon={<i className="fa fa-file-image-o"></i>}/>}        
-    </>
+    </Container>
   );
 };
 

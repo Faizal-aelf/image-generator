@@ -117,7 +117,7 @@ const RandomGenerator = () => {
                 <Button variant="contained" onClick={() => handleGeneratePrompts()}>Generate Prompts</Button>
             </Box>  
             {messageList.length > 0 && <TextField  label="Output" variant="outlined" fullwidth value={messageList} 
-                multiline maxRows={15} className={classes.formTextfield} disabled/>}
+                multiline maxRows={15} className={classes.formTextfield}/>}
         </>
     )
 }

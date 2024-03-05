@@ -30,3 +30,7 @@ export const generateRandomCombinations = (arrays, numCombinations) => {
 
     return Array.from(combinations).map(combination => JSON.parse(combination));
 }
+
+export const shuffleLimitArray = (values, limit = 6) => {
+    return values.sort(() => Math.random() - 0.5).slice(0, limit);
+}

@@ -69,16 +69,19 @@ const RandomGenerator = () => {
         return item.filter(item => limitedTraitsKey.includes(item.id));
     };
 
+    const removeTrait = (id) => {
+        const updatedList = limitedTraitsKey.filter(item => item !== id.replace(/%/g, ''));
+        setLimitedTraitsKey(updatedList);
+    }
+
     const isSelected = (id) => {
         return limitedTraitsKey.includes(id.replace(/%/g, ''))
     }
 
     const checkAddTraits = (id) => {
+        navigator.clipboard.writeText(id);
         if (!isSelected(id)) {
             setLimitedTraitsKey((prevList => [...prevList, id.replace(/%/g, '')]));
-        } else {
-            const updatedList = limitedTraitsKey.filter(item => item !== id.replace(/%/g, ''));
-            setLimitedTraitsKey(updatedList);
         }
     }
 
@@ -98,7 +101,7 @@ const RandomGenerator = () => {
             {limitedTraitsKey.map(item => <>{item}, </>)}
             {traitsKey.map((item) => <Chip color="primary" label={item} className={classes.chipItem} 
             key={`${item}-selected-traits`} size='small' variant={isSelected(item) ? 'filled' : "outlined"}
-            onClick={() => checkAddTraits(item)} {...(isSelected(item) && { onDelete: () => checkAddTraits(item)})}/>)}<br/><br/>
+            onClick={() => checkAddTraits(item)} {...(isSelected(item) && { onDelete: () => removeTrait(item)})} />)}<br/><br/>
             <TextField  label="Format" variant="outlined" fullwidth value={basePromptMessage} 
                 multiline maxRows={5} className={classes.formTextfield} 
                 onChange={(event) => setBasePromptMessage(event.target.value)}/>

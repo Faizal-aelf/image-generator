@@ -6,16 +6,14 @@
  * 
  */
 // GENERIC IMPORT
-import {Box, Button, Chip, List, ListItem, ListItemText, Accordion, AccordionSummary, AccordionDetails, Typography, TextField, ButtonGroup} from '@mui/material';
+import {Box, Button, Chip, Accordion, AccordionSummary, AccordionDetails, TextField, Alert, Tooltip} from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import {useState} from 'react';
 import axios from 'axios';
 
 // COMPONENT IMPORT
-import {Container} from '../../../atom';
-import PageHeader from '../../common/header/pageHeader';
+import {Loader} from '../../../atom';
 import {promptItems} from '../constants';
-import {generatePermutations} from '../utils';
 
 // API
 import {GENERATE_IMAGE_API} from '../../../../api/constants';
@@ -29,11 +27,11 @@ const ListTraits = () => {
   // STATE VARIABLE
   const [isLoading, setLoading] = useState(false);
   const [selectedTraits, setSelectedTraits] = useState([]);
-  const [finalMessage, setFinalMessage] = useState();
+  const [generatedMessage, setGeneratedMessage] = useState();
   const [generatedImage, setGeneratedImage] = useState();
-  const [messageList, setMessageList] = useState([]);
-  const [basePromptMessage, setBasePromptMessage] = useState("Make sure there's only cat in the image. Keep the style of the image as per the image input. Keep the image clean. Keep all the characteristics.");
-  
+  const [basePromptMessage, setBasePromptMessage] = useState("Make sure there's only cat in the image. Keep the style of the image as per the image input. Keep the image clean. Keep all the characteristics. A cat wearing a %hat% cap, %mouth%, sporting a %clothes%, and having %eyes% eyes, while wearing %shoes%. The cat should be accompanied by a %pets% companion.");
+  const traitsKey = ['%hat%', '%mouth%', '%clothes%', '%eyes%', '%shoes%', '%pets%'];
+    
   const checkAddTraits = (value, id) => {
     if (isSameCategory(id)) {
       alert("Please select from different category, You have already selected one item from here.");
@@ -60,84 +58,16 @@ const ListTraits = () => {
     return selectedTraits.some(item => item.value == value && item.id == id)
   }
 
-  const handleGeneratePrompts = () => {
+  const handleGeneratePrompts = async () => {
     setLoading(true);
-    const message = selectedTraits.map(item => pickupMessage(item.value, item.id));
-    message.unshift(basePromptMessage);
-    setFinalMessage(message.join(", "));
+    const output = await selectedTraits.reduce((acc, cur) => {
+            return acc.replace(RegExp(`%${cur.id}%`, "g"), cur.value);
+        }, basePromptMessage);
+    setGeneratedMessage(output);
     setLoading(false);
   }
 
-  const pickupMessage = (value, id) => {
-    switch (id) {
-      case 'hat': {
-        return `The cat wearing ${value} hat`
-      }
-      case 'accessory': {
-        return `The cat wearing ${value} accessory`
-      }
-      case 'breed': {
-        return `The cat is ${value} breed`
-      }
-      case 'clothes': {
-        return `The cat wearing ${value} clothes`
-      }
-      case 'eyes': {
-        return `The cat have ${value} eyes`
-      }
-      case 'mouth': {
-        return `The cat have ${value} mouth`
-      }
-      case 'pets': {
-        return `The cat have ${value} pets`
-      }
-      case 'shoes': {
-        return `The cat wearing ${value} shoe`
-      }
-      case 'type': {
-        return `The cat is ${value} type`
-      }
-      case 'weapon': {
-        return `The cat have ${value} weapon`
-      }
-    }
-    const output = `Make sure there's only cat in the image. 
-    Keep the style of the image as per the image input. 
-    Keep the image clean. Keep all the characteristics: 
-    A cat wearing a baseball cap, chuckling, sporting a tee with a bone print, 
-    and having angry eyes, while wearing combat boots. 
-    The cat should be accompanied by a baby fairy companion.`;
-  }
-
-  const pickupMessage1 = (outputList) => {
-    const hat = outputList.filter(item => item.id == 'hat').map(item => item.value);
-    const accessory = outputList.filter(item => item.id == 'accessory').map(item => item.value);
-    // const breed = outputList.filter(item => item.id == 'breed').map(item => item.value);
-    const clothes = outputList.filter(item => item.id == 'clothes').map(item => item.value);
-    const eyes = outputList.filter(item => item.id == 'eyes').map(item => item.value);
-    const mouth = outputList.filter(item => item.id == 'mouth').map(item => item.value);
-    const pets = outputList.filter(item => item.id == 'pets').map(item => item.value);
-    const shoes = outputList.filter(item => item.id == 'shoes').map(item => item.value);
-    const type = outputList.filter(item => item.id == 'type').map(item => item.value);
-    // const weapon = outputList.filter(item => item.id == 'weapon').map(item => item.value);
-    const output = [`A cat wearing a ${hat} cap, ${mouth}, sporting a ${clothes}, 
-    and having ${eyes} eyes, while wearing ${shoes}. 
-    The cat should be accompanied by a ${pets} companion.`];
-    return output;
-  }
-
   const generateImage = async () => {
-    var finalArray  = promptItems.map(item => item.values.map(trait => ({id: item.id, value: trait})));
-    console.log(finalArray);
-    const combineArray = generatePermutations(finalArray);
-    console.log(combineArray)
-      const output = combineArray.map(traits =>  {
-      const message = pickupMessage1(traits);
-      message.unshift(basePromptMessage);
-      return message.join(", ")
-    });
-    setMessageList(output);
-    console.log(output)
     /* const params = {
       seed:"423432543545",
       newTrait: {
@@ -176,57 +106,48 @@ const ListTraits = () => {
   }
 
   return (
-    <Container> 
-      <PageHeader title='All traits' subtitle="Here's what you're looking at" {...{isLoading}}></PageHeader>
-      <TextField  label="Basic message" variant="outlined" 
-        fullwidth value={basePromptMessage} disabled
-        multiline maxRows={5} className={classes.formTextfield}/>
-      {finalMessage && <TextField  label="Generated message" variant="outlined" 
-        fullwidth value={finalMessage}
-        multiline maxRows={5} className={classes.formTextfield}/>}
-      {selectedTraits.length > 0 && <Typography variant="h6" gutterBottom>Selected Traits</Typography>}
-      {selectedTraits.map((item) => <Chip color="primary" onDelete={() => removeTraits(item.value, item.id)} label={item.value} className={classes.chipItem} key={`${item.value}-selected-traits`} />)}
-      <br/><br/>
-      
-      <Box className={classes.btnContainer} textAlign='right'>
-        <ButtonGroup variant="contained">
-          <Button variant="outlined" onClick={() => generateImage()}>Generate Image</Button>
-          <Button variant="contained" onClick={() => handleGeneratePrompts()} disabled={!selectedTraits.length}>Generate Prompts</Button>
-        </ButtonGroup>
-      </Box>
+    <> 
+        { isLoading && <Loader/>} <br/>
+        <Alert severity="info">Please select six traits from the list to proceed with generating your message.</Alert><br/>
+        {traitsKey.map((item) => <Chip color="primary" label={item} className={classes.chipItem} key={`${item}-selected-traits`} size='small' />)}<br/><br/>
+        <TextField  label="Format" variant="outlined" 
+            fullwidth value={basePromptMessage} disabled
+            multiline maxRows={5} className={classes.formTextfield}
+            onChange={(event) => setBasePromptMessage(event.target.value)}/>
+        {generatedMessage && <TextField  label="Generated message" variant="outlined" 
+            fullwidth value={generatedMessage}
+            multiline maxRows={5} className={classes.formTextfield}
+            onChange={(event) => setGeneratedMessage(event.target.value)}/>}
+        {selectedTraits.map((item) => <Chip color="primary" onDelete={() => removeTraits(item.value, item.id)} label={item.value} className={classes.chipItem} key={`${item.value}-selected-traits`} />)}
+        <br/>
+        <Box className={classes.btnContainer} textAlign='right'>
+            <Tooltip title="API not yet ready" arrow style={{ backgroundColor: 'transparent' }}>
+                <Box component={'span'}><Button variant="outlined" onClick={() => generateImage()} disabled>Generate Image</Button></Box>
+            </Tooltip>
+            <Tooltip title={selectedTraits.length != 6 ? "You can generate message only if you select 6 traits from the below list.": ''} arrow style={{ backgroundColor: 'transparent' }}>
+                <Box component={'span'}><Button variant="contained" onClick={() => handleGeneratePrompts()} disabled={selectedTraits.length != 6}>Generate Prompts</Button></Box>
+            </Tooltip>
+        </Box>
 
-      {messageList.length > 0 && (
-        <List>
-            {messageList.map(item => (
-              <ListItem className={classes.itemItem}>
-                <ListItemText
-                  primary={item}
-                />
-              </ListItem>
-            ))}
-          </List>
-      )}
-
-      {promptItems.map(item => (
-        <Accordion key={item.id}>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls={`panel-content-${item.id}`}
-            id={`panel-header-${item.id}`}
-          >
-            {item.title}
-          </AccordionSummary>
-          <AccordionDetails>
-          {item.values.map((trait, index) => (
-            <Chip color="primary" onClick={() => checkAddTraits(trait, item.id)} label={trait} 
-              variant={isExists(trait, item.id) ? 'filled' : "outlined"} className={classes.chipItem} key={`${trait}-${item.id}-${index}`} 
-              {...(isExists(trait, item.id) && { onDelete: () => removeTraits(trait, item.id)})} />
-            ))}
-          </AccordionDetails>
-        </Accordion>
-      ))}
-      
-    </Container>
+        {promptItems.map(item => (
+            <Accordion key={item.id}>
+            <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls={`panel-content-${item.id}`}
+                id={`panel-header-${item.id}`}
+            >
+                {item.title}
+            </AccordionSummary>
+            <AccordionDetails>
+            {item.values.map((trait, index) => (
+                <Chip color="primary" onClick={() => checkAddTraits(trait, item.id)} label={trait} 
+                variant={isExists(trait, item.id) ? 'filled' : "outlined"} className={classes.chipItem} key={`${trait}-${item.id}-${index}`} 
+                {...(isExists(trait, item.id) && { onDelete: () => removeTraits(trait, item.id)})} />
+                ))}
+            </AccordionDetails>
+            </Accordion>
+        ))}
+    </>
   )
 }
 

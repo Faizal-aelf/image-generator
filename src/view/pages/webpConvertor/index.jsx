@@ -79,7 +79,7 @@ const WebpConvertorPage = () => {
           variant="outlined" 
           className={classes.formTextfield}
           onChange={handleImageLoad}
-          fullWidth
+          fullWidth={true}
           required
           helperText='Upload only image files'
           inputProps={{

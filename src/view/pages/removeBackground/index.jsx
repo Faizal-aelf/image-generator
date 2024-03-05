@@ -94,7 +94,7 @@ const RemoveBackgroundPage = () => {
           variant="outlined" 
           className={classes.formTextfield}
           onChange={handleRemoveImageBG}
-          fullWidth
+          fullWidth={true}
           required
           helperText='Upload only image files'
           />

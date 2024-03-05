@@ -14,6 +14,7 @@ import axios from 'axios';
 // COMPONENT IMPORT
 import {Loader} from '../../../atom';
 import {promptItems} from '../constants';
+import {defaultTraitsKey} from '../constants';
 
 // API
 import {GENERATE_IMAGE_API} from '../../../../api/constants';
@@ -30,18 +31,16 @@ const ListTraits = () => {
   const [generatedMessage, setGeneratedMessage] = useState();
   const [generatedImage, setGeneratedImage] = useState();
   const [basePromptMessage, setBasePromptMessage] = useState("Make sure there's only cat in the image. Keep the style of the image as per the image input. Keep the image clean. Keep all the characteristics. A cat wearing a %hat% cap, %mouth%, sporting a %clothes%, and having %eyes% eyes, while wearing %shoes%. The cat should be accompanied by a %pets% companion.");
-  const traitsKey = ['%hat%', '%mouth%', '%clothes%', '%eyes%', '%shoes%', '%pets%'];
+  const traitsKey = defaultTraitsKey.map(item => `%${item}%`);;
     
   const checkAddTraits = (value, id) => {
     if (isSameCategory(id)) {
       alert("Please select from different category, You have already selected one item from here.");
       return;
     }
+    navigator.clipboard.writeText(value);
     if (!isExists(value, id)) {
       setSelectedTraits((prevList => [...prevList, {value, id}]));
-    } else {
-      const updatedList = selectedTraits.filter(item => !(item.value == value && item.id == id));
-      setSelectedTraits(updatedList);
     }
   }
 
@@ -68,7 +67,7 @@ const ListTraits = () => {
   }
 
   const generateImage = async () => {
-    /* const params = {
+    const params = {
       seed:"423432543545",
       newTrait: {
           "name": "mouth",
@@ -80,7 +79,8 @@ const ListTraits = () => {
             selectedTraits.map(item => ({name: item.id, value: item.value}))
           ]
       }
-    }
+    };
+    console.log("params: ", params);
     try {
         const response = await axios.post(
             GENERATE_IMAGE_API,
@@ -102,7 +102,7 @@ const ListTraits = () => {
     } finally {
         console.log("Finally: ");
         setLoading(false);
-    } */
+    }
   }
 
   return (
@@ -111,18 +111,18 @@ const ListTraits = () => {
         <Alert severity="info">Please select six traits from the list to proceed with generating your message.</Alert><br/>
         {traitsKey.map((item) => <Chip color="primary" label={item} className={classes.chipItem} key={`${item}-selected-traits`} size='small' />)}<br/><br/>
         <TextField  label="Format" variant="outlined" 
-            fullwidth value={basePromptMessage} disabled
+            fullWidth={true} value={basePromptMessage} disabled
             multiline maxRows={5} className={classes.formTextfield}
             onChange={(event) => setBasePromptMessage(event.target.value)}/>
         {generatedMessage && <TextField  label="Generated message" variant="outlined" 
-            fullwidth value={generatedMessage}
+            fullWidth={true} value={generatedMessage}
             multiline maxRows={5} className={classes.formTextfield}
             onChange={(event) => setGeneratedMessage(event.target.value)}/>}
         {selectedTraits.map((item) => <Chip color="primary" onDelete={() => removeTraits(item.value, item.id)} label={item.value} className={classes.chipItem} key={`${item.value}-selected-traits`} />)}
         <br/>
         <Box className={classes.btnContainer} textAlign='right'>
             <Tooltip title="API not yet ready" arrow style={{ backgroundColor: 'transparent' }}>
-                <Box component={'span'}><Button variant="outlined" onClick={() => generateImage()} disabled>Generate Image</Button></Box>
+                <Box component={'span'}><Button variant="outlined" onClick={() => generateImage()}>Generate Image</Button></Box>
             </Tooltip>
             <Tooltip title={selectedTraits.length != 6 ? "You can generate message only if you select 6 traits from the below list.": ''} arrow style={{ backgroundColor: 'transparent' }}>
                 <Box component={'span'}><Button variant="contained" onClick={() => handleGeneratePrompts()} disabled={selectedTraits.length != 6}>Generate Prompts</Button></Box>

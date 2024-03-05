@@ -32,10 +32,20 @@ const ImageGeneratorPage = () => {
     const handleGeneratePrompts = async () => {
         setLoading(true);
         try {
-            /* const response = await axios.post(
+            const params = {
+                seed:"423432543545",
+                newTrait: {
+                    "name": "mouth",
+                    "value": "wide open"
+                },
+                baseImage: {
+                    image: "",
+                }
+              }
+            const response = await axios.post(
                 GENERATE_IMAGE_API,
                     {
-                        prompt: message
+                        ...params
                     },
                     {
                     headers: {
@@ -44,8 +54,8 @@ const ImageGeneratorPage = () => {
                 }
             );
             console.log("response: ", response);
-            setGeneratedPrompts(response.data);*/
-            setGeneratedPrompts(MockData)
+            setGeneratedPrompts(response.data);
+            // setGeneratedPrompts(MockData)
         } catch (error) {
             console.error('Error generating prompts:', error);
             setGeneratedPrompts([]);
@@ -66,7 +76,7 @@ const ImageGeneratorPage = () => {
                 variant="outlined" 
                 className="form-textfield"
                 onChange={(e) => setMessage(e.target.value)}
-                fullWidth
+                fullWidth={true}
                 multiline
                 maxRows={5}
                 required/>

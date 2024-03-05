@@ -14,6 +14,7 @@ import { saveAs } from "file-saver";
 import {Loader} from '../../../atom';
 import {promptItems} from '../constants';
 import {generateRandomCombinations} from '../utils';
+import {defaultTraitsKey} from '../constants';
 
 // STYLE IMPORT
 import useStyles from '../styles';
@@ -22,13 +23,14 @@ const RandomGenerator = () => {
     const classes = useStyles();
   
     // STATE VARIABLE
+    // Make sure there's only cat in the image. Keep the style of the image as per the image input. Keep the image clean. Keep all the characteristics. A cat wearing a %hat% cap, %necklace%, sporting a %clothes%, and having %eyes% eyes. The cat should be accompanied by a %pets% companion.
     const [isLoading, setLoading] = useState(false);
-    const [basePromptMessage, setBasePromptMessage] = useState("Make sure there's only cat in the image. Keep the style of the image as per the image input. Keep the image clean. Keep all the characteristics. A cat wearing a %hat% cap, %mouth%, sporting a %clothes%, and having %eyes% eyes, while wearing %shoes%. The cat should be accompanied by a %pets% companion.");
-    const [totalGeneration, setTotalGeneration] = useState(1000);
-    const [totalTraits, setTotalTraits] = useState(6);
+    const [basePromptMessage, setBasePromptMessage] = useState("A cat wearing %clothes% uniform,  a %hat% on the head, %necklace% around the neck, and Picture of a cat with %eyes% on. The cat sits next to a %pets%. The cat sits beside a %pets%. The cat have a %pets% near by with attention to detail, particularly focusing on its face and body.");
+    const [totalGeneration, setTotalGeneration] = useState(20);
+    const [totalTraits, setTotalTraits] = useState(defaultTraitsKey.length);
     const [messageList, setMessageList] = useState([]);
-    const traitsKey = ['%hat%', '%mouth%', '%clothes%', '%eyes%', '%shoes%', '%pets%'];
-    const [limitedTraitsKey, setLimitedTraitsKey] = useState(['hat', 'mouth', 'clothes', 'eyes', 'shoes', 'pets']);
+    const traitsKey = defaultTraitsKey.map(item => `%${item}%`);
+    const [limitedTraitsKey, setLimitedTraitsKey] = useState(defaultTraitsKey);
     
     const handleCopy = () => {
         setLoading(true);
@@ -54,7 +56,7 @@ const RandomGenerator = () => {
         }
         setLoading(true);
         var finalArray  = promptItems.map(item => item.values.map(trait => ({id: item.id, value: trait})));
-        const combineArray = await generateRandomCombinations(finalArray, 1000);
+        const combineArray = await generateRandomCombinations(finalArray, totalGeneration);
         const output = await combineArray.map(item => item).map(item => {
             const generatedMessage  = selectedTraits(item).reduce((acc, cur) => {
                 return acc.replace(RegExp(`%${cur.id}%`, "g"), cur.value);
@@ -98,25 +100,24 @@ const RandomGenerator = () => {
     return (
         <> 
             { isLoading && <Loader/>} <br/><br/>
-            {limitedTraitsKey.map(item => <>{item}, </>)}
             {traitsKey.map((item) => <Chip color="primary" label={item} className={classes.chipItem} 
             key={`${item}-selected-traits`} size='small' variant={isSelected(item) ? 'filled' : "outlined"}
             onClick={() => checkAddTraits(item)} {...(isSelected(item) && { onDelete: () => removeTrait(item)})} />)}<br/><br/>
-            <TextField  label="Format" variant="outlined" fullwidth value={basePromptMessage} 
+            <TextField  label="Format" variant="outlined" fullWidth={true} value={basePromptMessage} 
                 multiline maxRows={5} className={classes.formTextfield} 
                 onChange={(event) => setBasePromptMessage(event.target.value)}/>
             <TextField  label="Number of generations" variant="outlined" 
-                fullwidth value={totalGeneration} className={classes.formTextfield} 
+                fullWidth={true} value={totalGeneration} className={classes.formTextfield} 
                 type='number' onChange={(event) => setTotalGeneration(event.target.value)}/>
             <TextField  label="Number of traits" variant="outlined" 
-                fullwidth value={totalTraits} className={classes.formTextfield} 
+                fullWidth={true} value={totalTraits} className={classes.formTextfield} 
                 type='number' onChange={(event) => setTotalTraits(event.target.value)} inputProps={{min: "1", max: "6"}}/>
             <Box className={classes.btnContainer} textAlign='right'>
                 <Button variant="outlined" onClick={() => handleDownload()} disabled={!messageList.length}>Download JSON</Button>
                 <Button variant="outlined" onClick={() => handleCopy()}  disabled={!messageList.length}>Copy</Button>
                 <Button variant="contained" onClick={() => handleGeneratePrompts()}>Generate Prompts</Button>
             </Box>  
-            {messageList.length > 0 && <TextField  label="Output" variant="outlined" fullwidth value={messageList} 
+            {messageList.length > 0 && <TextField  label="Output" variant="outlined" fullWidth={true} value={messageList} 
                 multiline maxRows={15} className={classes.formTextfield}/>}
         </>
     )

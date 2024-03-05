@@ -89,7 +89,7 @@ const ImageToPixelPage = () => {
             variant="outlined" 
             className={classes.formTextfield}
             onChange={handleImageUpload}
-            fullWidth
+            fullWidth={true}
             required
             helperText='Upload only image files'/>
           <Slider defaultValue={range} valueLabelDisplay="auto" onChange={handleRangeChange} disabled={!imageDataUrl}/>

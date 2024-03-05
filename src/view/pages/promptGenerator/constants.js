@@ -19,13 +19,15 @@ import weaponList from './data/weapon.json';
 
 export const promptItems = [
     { id: 'hat', title: 'Hat', values: hatList, message: 'The cat wearing a'},
-    // { id: 'accessory', title: 'Accessory', values: accessoryList, message: 'The cat wearing '},
+    { id: 'necklace', title: 'Necklace', values: accessoryList, message: 'The cat wearing '},
     // { id: 'breed', title: 'Breed', values: breedList, message: 'The cat breed is '},
     { id: 'clothes', title: 'Clothes', values: clothesList, message: 'The cat wearing '},
     { id: 'eyes', title: 'Eyes', values: eyesList, message: 'The cat have  '},
-    { id: 'mouth', title: 'Mouth', values: mouthList, message: 'The cat have '},
+    // { id: 'mouth', title: 'Mouth', values: mouthList, message: 'The cat have '},
     { id: 'pets', title: 'Pets', values: petsList, message: 'The cat have  '},
-    { id: 'shoes', title: 'Shoes', values: shoesList, message: 'The cat wearing '},
+    // { id: 'shoes', title: 'Shoes', values: shoesList, message: 'The cat wearing '},
     // { id: 'type', title: 'Type', values: typeList, message: 'The cat is  '},
     // { id: 'weapon', title: 'Weapon', values: weaponList, message: 'The cat have '},
 ];
+
+export const defaultTraitsKey = promptItems.map(item => item.id);

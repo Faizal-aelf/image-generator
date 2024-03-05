@@ -49,6 +49,9 @@ const RandomGenerator = () => {
             alert(`You need to select ${totalTraits} traits, but u selected only ${limitedTraitsKey.length} before generating the prompt message.`)
             return;
         }
+        if (!isTraitsAvailable()) {
+            return;
+        }
         setLoading(true);
         var finalArray  = promptItems.map(item => item.values.map(trait => ({id: item.id, value: trait})));
         const combineArray = await generateRandomCombinations(finalArray, 1000);
@@ -77,7 +80,17 @@ const RandomGenerator = () => {
             const updatedList = limitedTraitsKey.filter(item => item !== id.replace(/%/g, ''));
             setLimitedTraitsKey(updatedList);
         }
-      }
+    }
+
+    const isTraitsAvailable = () => {
+        const output = limitedTraitsKey.filter(item => !basePromptMessage.includes(`%${item}%`)); 
+        if (output.length > 0) {
+            alert(`Please add ${output.map(item => `%${item}%`).join(', ')} `);
+            return false
+        } else {
+            return true
+        }
+    };
 
     return (
         <> 

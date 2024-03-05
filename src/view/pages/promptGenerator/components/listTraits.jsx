@@ -108,7 +108,6 @@ const ListTraits = () => {
   return (
     <> 
         { isLoading && <Loader/>} <br/>
-        <Alert severity="info">Please select six traits from the list to proceed with generating your message.</Alert><br/>
         {traitsKey.map((item) => <Chip color="primary" label={item} className={classes.chipItem} key={`${item}-selected-traits`} size='small' />)}<br/><br/>
         <TextField  label="Format" variant="outlined" 
             fullWidth={true} value={basePromptMessage} disabled

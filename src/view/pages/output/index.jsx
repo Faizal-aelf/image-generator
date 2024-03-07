@@ -21,13 +21,13 @@ import ImageModal from './component/imageModal';
 // JSON DATA
 import DataJSON1 from './data/1.json';
 import DataJSON2 from './data/2.json';
-/*import DataJSON1 from './data/1.json';
-import DataJSON1 from './data/1.json';
-import DataJSON1 from './data/1.json';
-import DataJSON1 from './data/1.json';
-import DataJSON1 from './data/1.json';
-import DataJSON1 from './data/1.json';
-import DataJSON1 from './data/1.json'; */
+import DataJSON3 from './data/3.json';
+import DataJSON4 from './data/4.json';
+import DataJSON5 from './data/5.json';
+//import DataJSON6 from './data/6.json';
+//import DataJSON7 from './data/7.json';
+//import DataJSON8 from './data/8.json';
+//import DataJSON9 from './data/9.json';
 
 // STYLE IMPORT
 import useStyles from './styles';
@@ -37,7 +37,7 @@ const OutputPage = () => {
   const classes = useStyles();
 
   // STATE VARIABLE
-  const [dataList, setDataList] = useState([DataJSON1, DataJSON2]);
+  const [dataList, setDataList] = useState([DataJSON1, DataJSON2, DataJSON3, DataJSON4, DataJSON5]);
   const [isLoading, setLoading] = useState(false);
   const [imageModal, setImageModal] = useState({
     src: null,
@@ -59,7 +59,7 @@ const OutputPage = () => {
       <PageHeader title='Generated Output' subtitle="Here's what you're looking at"  {...{isLoading}}></PageHeader>
       <Box className={classes.container}>
         {dataList.map((item, index) => (
-          <Accordion {...(index == 0 && { defaultExpanded: true})}>
+          <Accordion >
             <AccordionSummary expandIcon={<ExpandMoreIcon />} className={classes.accordionTitle}>{item.title}: {moment(item.date, 'DD-MM-YYYY').format('MMMM Do YYYY')}</AccordionSummary>
             <AccordionDetails>
               <ul className={classes.datalist}>
@@ -88,3 +88,4 @@ const OutputPage = () => {
 };
 
 export default OutputPage;
+// {...(index == 0 && { defaultExpanded: true})}

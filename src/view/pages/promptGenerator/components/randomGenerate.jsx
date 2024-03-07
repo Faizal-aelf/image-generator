@@ -116,8 +116,7 @@ const RandomGenerator = () => {
             })
             .then(response => response.json())
             .then(data => {
-                setGeneratedImages(data)
-                console.log(data);
+                setGeneratedImages(data);
                 setLoading(false);
             })
             .catch(error => {

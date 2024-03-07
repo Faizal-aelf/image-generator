@@ -3,48 +3,76 @@
     "title": "Tested traits (Cloths)",
     "output": [
         {
+            "prompt": "Generate the cat image with following traits: Space Suit clothes",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/af0f71d2-f101-4234-aa37-3cf3caec406b/Default_Generate_the_cat_image_with_following_traits_Space_Sui_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Cyberpunk Jacket clothes",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/1d311a24-e9b8-4326-9fbe-9487b46caa2d/Default_Generate_the_cat_image_with_following_traits_Cyberpunk_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Roman Gladiator Attire clothes",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/81483821-480d-48a7-bf9f-f306e9ac6915/Default_Generate_the_cat_image_with_following_traits_Roman_Gla_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Doraemon outfit clothes",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/241e6bfa-e42b-4941-9ea5-ffcc938f5650/Default_Generate_the_cat_image_with_following_traits_Doraemon_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Kimono clothes",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/a3e79220-c4c1-4635-80a0-37b672d57244/Default_Generate_the_cat_image_with_following_traits_Kimono_cl_0.jpg"
+        },
+        {
             "prompt": "Generate the cat image with following traits: Fairytale Ball Gown clothes",
-            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/c4d74521-c198-4664-ac3d-ef9ac7b86246/Default_Generate_the_cat_image_with_following_traits_Fairytale_0.jpg"
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/9d5e958a-ee5c-4f6c-9d4e-05054cd3ebe9/Default_Generate_the_cat_image_with_following_traits_Fairytale_0.jpg"
         },
         {
-            "prompt": "Generate the cat image with following traits: White T-Shirt clothes",
-            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/8d638784-cb80-4ca0-9cbe-380349b175f2/Default_Generate_the_cat_image_with_following_traits_White_TSh_0.jpg"
+            "prompt": "Generate the cat image with following traits: Trench Coat clothes",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/a521fc75-8d4a-4bc6-83f9-e67904e6c929/Default_Generate_the_cat_image_with_following_traits_Trench_Co_0.jpg"
         },
         {
-            "prompt": "Generate the cat image with following traits: Fur Hoodie clothes",
-            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/248f7ef5-d148-430b-8435-118e024c7137/Default_Generate_the_cat_image_with_following_traits_Fur_Hoodi_0.jpg"
+            "prompt": "Generate the cat image with following traits: Zoot Suit clothes",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/81bfd239-30bf-47d8-85b5-85981b8e6782/Default_Generate_the_cat_image_with_following_traits_Zoot_Suit_0.jpg"
         },
         {
-            "prompt": "Generate the cat image with following traits: Oversized Hoodie clothes",
-            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/527365d4-b103-4f04-806e-c642d400676d/Default_Generate_the_cat_image_with_following_traits_Oversized_0.jpg"
+            "prompt": "Generate the cat image with following traits: Ninja attire clothes",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/bb6fb224-b83e-4cc0-a078-3a74449b65f7/Default_Generate_the_cat_image_with_following_traits_Ninja_att_0.jpg"
         },
         {
-            "prompt": "Generate the cat image with following traits: Hip Hop clothes clothes",
-            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/257061b5-449f-4fd9-bba7-6c22a08506a5/Default_Generate_the_cat_image_with_following_traits_Hip_Hop_c_0.jpg"
+            "prompt": "Generate the cat image with following traits: Samurai armor clothes",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/29965141-cc2c-4b01-a53f-69eae6b6da25/Default_Generate_the_cat_image_with_following_traits_Samurai_a_0.jpg"
         },
         {
-            "prompt": "Generate the cat image with following traits: Sari clothes",
-            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/2e2bf63d-d4f6-4c56-a97d-42e437aefd84/Default_Generate_the_cat_image_with_following_traits_Sari_clot_0.jpg"
+            "prompt": "Generate the cat image with following traits: Martial Arts Gi clothes",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/6eff5e30-4755-4cbd-a640-1c6f0af5e938/Default_Generate_the_cat_image_with_following_traits_Martial_A_0.jpg"
         },
         {
-            "prompt": "Generate the cat image with following traits: Hoodie clothes",
-            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/f13af97a-df97-45b6-9172-7c30d63ebb7b/Default_Generate_the_cat_image_with_following_traits_Hoodie_cl_0.jpg"
+            "prompt": "Generate the cat image with following traits: Light Armor clothes",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/4facfc87-3eef-4db4-81a8-c4e73acc7e79/Default_Generate_the_cat_image_with_following_traits_Light_Arm_0.jpg"
         },
         {
-            "prompt": "Generate the cat image with following traits: Ninja clothes",
-            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/34f93068-d140-43f9-9976-5b1233970a0c/Default_Generate_the_cat_image_with_following_traits_Ninja_clo_0.jpg"
+            "prompt": "Generate the cat image with following traits: Toga clothes",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/8dbeb19a-398d-4462-94af-8a8e4e76b042/Default_Generate_the_cat_image_with_following_traits_Toga_clot_0.jpg"
         },
         {
-            "prompt": "Generate the cat image with following traits: Police Uniform clothes",
-            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/a7d3c97b-3258-4b15-b316-aa5b930709cd/Default_Generate_the_cat_image_with_following_traits_Police_Un_0.jpg"
+            "prompt": "Generate the cat image with following traits: Cowboy Dress clothes",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/6f03c24b-bf15-42fc-80b3-9a524b6430be/Default_Generate_the_cat_image_with_following_traits_Cowboy_Dr_0.jpg"
         },
         {
-            "prompt": "Generate the cat image with following traits: Samurai clothes",
-            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/552c5f32-3bad-4d4c-bd63-02a2f41d5e45/Default_Generate_the_cat_image_with_following_traits_Samurai_c_0.jpg"
+            "prompt": "Generate the cat image with following traits: Judge's Robes clothes",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/a03c1a8c-129b-4bf2-af6e-d57455a74594/Default_Generate_the_cat_image_with_following_traits_Judges_Ro_0.jpg"
         },
         {
-            "prompt": "Generate the cat image with following traits: Navy Striped Tee clothes",
-            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/51174733-f5d0-4e45-972f-f505e0f6f07f/Default_Generate_the_cat_image_with_following_traits_Navy_Stri_0.jpg"
+            "prompt": "Generate the cat image with following traits: Pikachu costume clothes",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/b434dc9a-5c5b-432f-ba37-d62cd0d60034/Default_Generate_the_cat_image_with_following_traits_Pikachu_c_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Peter Pan costume clothes",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/3afaea6c-1ce2-4421-8b76-1522b53bf865/Default_Generate_the_cat_image_with_following_traits_Peter_Pan_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: King's Robe clothes",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/6e42b649-1a6e-482d-9b21-1effc890ba17/Default_Generate_the_cat_image_with_following_traits_Kings_Rob_0.jpg"
         }
     ]
 }

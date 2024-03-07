@@ -1,5 +1,74 @@
 {
     "date": "07-03-2024",
-    "title": "Tested traits (Cloths)",
-    "output": []
+    "title": "Tested traits (Mouth)",
+    "output": [
+        {
+            "prompt": "Generate the cat image with following traits: Purring mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/a7d830de-b977-4965-b5c6-82abf7c16e4e/Default_Generate_the_cat_image_with_following_traits_Purring_m_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Pursed mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/a7fc7707-4e80-43de-800a-a5b0b9cb8375/Default_Generate_the_cat_image_with_following_traits_Pursed_mo_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Whispering mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/5397d18d-5ba2-48fa-b11f-f78cae15b2f7/Default_Generate_the_cat_image_with_following_traits_Whisperin_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Grinning mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/f9dd94b8-543a-423d-8c38-3cfbad797ba9/Default_Generate_the_cat_image_with_following_traits_Grinning_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Laughing mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/b34c5d44-297b-4aeb-8b4f-301a1ebd70ad/Default_Generate_the_cat_image_with_following_traits_Laughing_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Yawning mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/6bde7ec7-de87-4506-81cd-237da91c0b92/Default_Generate_the_cat_image_with_following_traits_Yawning_m_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Mouth with the tongue out.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/b5b76595-7d53-43d7-aef7-44f666fb911d/Default_Generate_the_cat_image_with_following_traits_Mouth_wit_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Whistling mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/e062ae1b-443d-47e8-926e-a231a638cd94/Default_Generate_the_cat_image_with_following_traits_Whistling_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: roaring mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/4c26085b-beb0-4d19-a13e-35d07b0dd36d/Default_Generate_the_cat_image_with_following_traits_roaring_m_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Sneering mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/aa018e3e-4f7b-495d-86ec-97ea5d56781f/Default_Generate_the_cat_image_with_following_traits_Sneering_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Smacking mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/a938eaca-66eb-4066-982a-4e7babffdfcd/Default_Generate_the_cat_image_with_following_traits_Smacking_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Playful mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/63c50191-b531-42ea-85cf-335237e6bd64/Default_Generate_the_cat_image_with_following_traits_Playful_m_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Shouting mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/74da9ca6-93ba-4daf-b9b8-54430fe028fe/Default_Generate_the_cat_image_with_following_traits_Shouting_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Munching mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/1fd985ee-6dc0-4e65-a264-ef26588be51d/Default_Generate_the_cat_image_with_following_traits_Munching_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Mouth with a fanged smile.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/06ae93b5-e117-4d6b-bfbb-0314e118df18/Default_Generate_the_cat_image_with_following_traits_Mouth_wit_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Smiling mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/f39d9953-b3fa-4d07-a672-851379d58a00/Default_Generate_the_cat_image_with_following_traits_Smiling_m_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Chewing mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/5ace6c40-d70d-4ee1-ab5d-2eae569aa5b2/Default_Generate_the_cat_image_with_following_traits_Chewing_m_0.jpg"
+        }
+    ]
 }

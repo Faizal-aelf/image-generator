@@ -1,5 +1,54 @@
 {
     "date": "07-03-2024",
-    "title": "Tested traits (Cloths)",
-    "output": []
+    "title": "Tested traits (Hat)",
+    "output": [
+        {
+            "prompt": "Generate the cat image with following traits: Sombrero Hat above the head.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/510c60b1-838a-49fb-b7c8-552b1f9bcd6f/Default_Generate_the_cat_image_with_following_traits_Sombrero_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Cowboy Hat above the head.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/e102f21e-4378-4bbb-a995-b46160f5af77/Default_Generate_the_cat_image_with_following_traits_Cowboy_Ha_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Sun Hat above the head.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/f150be28-bf71-4f7f-9bd4-b27896562841/Default_Generate_the_cat_image_with_following_traits_Sun_Hat_a_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Fedora Hat above the head.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/3a02d6cd-69f2-41de-a73a-e3b7ddc09955/Default_Generate_the_cat_image_with_following_traits_Fedora_Ha_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Beret Hat above the head.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/d8798338-9893-444a-a36a-8489b5dd20ba/Default_Generate_the_cat_image_with_following_traits_Beret_Hat_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Chef's Hat above the head.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/f1bd7af0-8d1b-439b-904c-7349e856a88e/Default_Generate_the_cat_image_with_following_traits_Chefs_Hat_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Baseball Cap above the head.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/3fa41e89-ff33-4fea-9478-e7f8b1fcda43/Default_Generate_the_cat_image_with_following_traits_Baseball_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Bowler Hat above the head.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/7a2a86a2-9d93-4752-bbd1-d0a577f7921f/Default_Generate_the_cat_image_with_following_traits_Bowler_Ha_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Beanie Hat above the head.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/3e9bc70d-4af8-4eb6-a7f2-d751c5f3ef8e/Default_Generate_the_cat_image_with_following_traits_Beanie_Ha_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Turban above the head.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/0d229823-c565-4c19-ba3a-37cc350ff0fe/Default_Generate_the_cat_image_with_following_traits_Turban_ab_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Top Hat above the head.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/16ec8af3-0dcf-44b4-b6d6-69e12cf67343/Default_Generate_the_cat_image_with_following_traits_Top_Hat_a_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Santa Hat above the head.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/10cdf728-536c-4033-8a05-b7feb8cfe32c/Default_Generate_the_cat_image_with_following_traits_Santa_Hat_0.jpg"
+        }
+    ]
 }

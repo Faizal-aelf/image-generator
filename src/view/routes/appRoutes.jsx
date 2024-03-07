@@ -25,6 +25,7 @@ import ImageToPixelPage from '../pages/imageToPixel';
 import WebpConvertorPage from '../pages/webpConvertor';
 import RemoveBackgroundPage from '../pages/removeBackground';
 import PromptGeneratorPage from '../pages/promptGenerator';
+import OutputPage from '../pages/output';
 import HelpPage from '../pages/help';
 
 // STYLE IMPORT
@@ -49,6 +50,7 @@ const AppRoutes = () => {
                             <Route path={PATH.WEBP_CONVERTOR_PATH} element={<WebpConvertorPage />}/>
                             <Route path={PATH.REMOVE_BACKGROUND_PATH} element={<RemoveBackgroundPage />}/>
                             <Route path={PATH.PROMPT_GENERATOR_PATH} element={<PromptGeneratorPage />}/>
+                            <Route path={PATH.OUTPUT_PATH} element={<OutputPage />}/>
                             <Route path={PATH.HELP_PATH} element={<HelpPage />}/>
                             <Route path="*" element={<NoPage />} />
                         </Routes>

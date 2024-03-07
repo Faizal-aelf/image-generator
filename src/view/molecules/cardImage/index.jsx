@@ -20,10 +20,11 @@ const CardImage = (props) => {
     const {imageSrc, imageRef, title, size, handleImageModal, isDownloadable, isWebpImage, ...rest} = props.file;
     // DECLARE STYLE
     const classes = useStyles();
+    const sourceImg = imageRef?.current?.src || imageSrc;
 
     return (
         <Box className={classes.cardImageContainer}>
-            {!isWebpImage && <img onClick={() => handleImageModal?.(imageRef?.current?.src)} 
+            {!isWebpImage && <img onClick={() => handleImageModal?.(sourceImg)} 
                 {...(imageRef && { ref: imageRef })} 
                 className={classes.cardImage} src={imageSrc} 
             />}

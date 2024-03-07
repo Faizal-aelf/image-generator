@@ -48,6 +48,12 @@ export const utilsMenuItems = [
         icon: <i className="fa fa-eraser"></i>,
         link: PATH.REMOVE_BACKGROUND_PATH,
     },
+    {
+        id: 'OUTPUT',
+        label: 'Output',
+        icon: <i className="fa fa-bolt"></i>,
+        link: PATH.OUTPUT_PATH,
+    },
 ];
 
 export const helpMenuItems = [

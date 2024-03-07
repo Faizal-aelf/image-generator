@@ -25,12 +25,13 @@ const RandomGenerator = () => {
     // STATE VARIABLE
     // Make sure there's only cat in the image. Keep the style of the image as per the image input. Keep the image clean. Keep all the characteristics. A cat wearing a %hat% cap, %necklace%, sporting a %clothes%, and having %eyes% eyes. The cat should be accompanied by a %pets% companion.
     const [isLoading, setLoading] = useState(false);
-    const [basePromptMessage, setBasePromptMessage] = useState("A cat wearing %clothes% uniform,  a %hat% on the head, %necklace% around the neck, and Picture of a cat with %eyes% on. The cat sits next to a %pets%. The cat sits beside a %pets%. The cat have a %pets% near by with attention to detail, particularly focusing on its face and body.");
+    const [basePromptMessage, setBasePromptMessage] = useState("Generate the cat image with following traits: %clothes%, Picture of a cat with %eyes% on the eyes, %necklace% around the neck, %hat% above the head, %mouth%.");
     const [totalGeneration, setTotalGeneration] = useState(20);
     const [totalTraits, setTotalTraits] = useState(defaultTraitsKey.length);
     const [messageList, setMessageList] = useState([]);
     const traitsKey = defaultTraitsKey.map(item => `%${item}%`);
     const [limitedTraitsKey, setLimitedTraitsKey] = useState(defaultTraitsKey);
+    const [generatedImage, setGeneratedImages] = useState([]);
     
     const handleCopy = () => {
         setLoading(true);
@@ -39,7 +40,9 @@ const RandomGenerator = () => {
     };
 
     const handleDownload = () => {
-        const json = messageList.split("\n\n");
+        const json = messageList.split("\n");
+        navigator.clipboard.writeText([JSON.stringify(json)]);
+        
         const file = new File([JSON.stringify(json)], "prompts.json", {
             type: "application/json;charset=utf-8",
         });
@@ -63,8 +66,9 @@ const RandomGenerator = () => {
             }, basePromptMessage);
             return generatedMessage;
         });
-        setMessageList(output.join("\n\n\n"));
+        setMessageList(output.join("\n"));
         setLoading(false);
+        return output.join("\n\n\n");
     };
 
     const selectedTraits = (item) => {
@@ -97,6 +101,35 @@ const RandomGenerator = () => {
         }
     };
 
+    const callGenerateImage = async () => {
+        setLoading(true);
+        const output = await handleGeneratePrompts();
+        const json = output.split("\n\n\n");
+        const prompts = [JSON.stringify(json)];
+        try {
+            fetch('http://127.0.0.1:5000/generate_images', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ prompts: prompts })
+            })
+            .then(response => response.json())
+            .then(data => {
+                setGeneratedImages(data)
+                console.log(data);
+                setLoading(false);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                setLoading(false);
+            });
+        } catch (error) {
+            console.error('Error generating prompts:', error);
+            setGeneratedImages([]);
+        }
+    };
+
     return (
         <> 
             { isLoading && <Loader/>} <br/><br/>
@@ -113,12 +146,18 @@ const RandomGenerator = () => {
                 fullWidth={true} value={totalTraits} className={classes.formTextfield} 
                 type='number' onChange={(event) => setTotalTraits(event.target.value)} inputProps={{min: "1", max: "6"}}/>
             <Box className={classes.btnContainer} textAlign='right'>
-                <Button variant="outlined" onClick={() => handleDownload()} disabled={!messageList.length}>Download JSON</Button>
-                <Button variant="outlined" onClick={() => handleCopy()}  disabled={!messageList.length}>Copy</Button>
+                <Button variant="contained" onClick={() => callGenerateImage()} disabled>Call API</Button>
+                <Button variant="outlined" onClick={() => handleDownload()} disabled={!messageList.length}>Copy & Download JSON</Button>
+                <Button variant="outlined" onClick={() => handleCopy()}  disabled={!messageList.length}>Copy Content</Button>
                 <Button variant="contained" onClick={() => handleGeneratePrompts()}>Generate Prompts</Button>
             </Box>  
             {messageList.length > 0 && <TextField  label="Output" variant="outlined" fullWidth={true} value={messageList} 
                 multiline maxRows={15} className={classes.formTextfield}/>}
+            {generatedImage.length > 0 && generatedImage.map((item) => (
+                <Box>
+                    {JSON.stringify(item)}
+                </Box>
+            ))}
         </>
     )
 }

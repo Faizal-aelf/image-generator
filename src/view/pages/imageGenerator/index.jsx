@@ -53,14 +53,11 @@ const ImageGeneratorPage = () => {
                     },
                 }
             );
-            console.log("response: ", response);
             setGeneratedPrompts(response.data);
             // setGeneratedPrompts(MockData)
         } catch (error) {
-            console.error('Error generating prompts:', error);
             setGeneratedPrompts([]);
         } finally {
-            console.log("Finally: ");
             setLoading(false);
         }
     };

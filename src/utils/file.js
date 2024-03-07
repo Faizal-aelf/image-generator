@@ -26,3 +26,21 @@ export const generateColorCombination = (min = 10, max = 20) => {
   }
   return colorCombination;
 }
+
+export const convertImageUrlToDataUrl = async (imageUrl) => {
+  try {
+    const response = await fetch(imageUrl);
+    const blob = await response.blob();
+    const reader = new FileReader();
+    return new Promise((resolve, reject) => {
+      reader.onload = () => {
+        resolve(reader.result);
+      };
+      reader.onerror = reject;
+      reader.readAsDataURL(blob);
+    });
+  } catch (error) {
+    console.error('Error fetching image:', error);
+    throw error;
+  }
+};

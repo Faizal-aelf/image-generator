@@ -80,7 +80,6 @@ const ListTraits = () => {
           ]
       }
     };
-    console.log("params: ", params);
     try {
         const response = await axios.post(
             GENERATE_IMAGE_API,
@@ -93,14 +92,12 @@ const ListTraits = () => {
                 },
             }
         );
-        console.log(response.data);
         setGeneratedImage(response.data);
     } catch (error) {
         console.error('Error generating prompts:', error);
         setGeneratedImage();
         setLoading(true);
     } finally {
-        console.log("Finally: ");
         setLoading(false);
     }
   }

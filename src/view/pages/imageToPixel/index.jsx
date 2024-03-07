@@ -12,7 +12,7 @@ import {Slider, Box, TextField} from '@mui/material';
 import Pixelate from 'pixelate';
 
 // COMMON COMPONENT
-import {Empty, Container} from '../../atom';
+import {Empty, Container, Loader} from '../../atom';
 import {CardImage} from '../../molecules';
 import PageHeader from '../common/header/pageHeader';
 
@@ -63,7 +63,6 @@ const ImageToPixelPage = () => {
       } catch (error) {
           console.error('Error generating prompts:', error);
       } finally {
-          console.log("Finally: ");
           setLoading(false);
       } 
   };

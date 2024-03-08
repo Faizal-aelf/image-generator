@@ -32,6 +32,7 @@ import DataJSON8 from './data/8.json';
 import DataJSON9 from './data/9.json';
 import DataJSON10 from './data/10.json';
 import DataJSON11 from './data/11.json';
+// import DataJSON12 from './data/12.json';
 // 
 // STYLE IMPORT
 import useStyles from './styles';
@@ -41,7 +42,7 @@ const OutputPage = () => {
   const classes = useStyles();
 
   // STATE VARIABLE
-  const [dataList, setDataList] = useState([DataJSON1, DataJSON2, DataJSON3, DataJSON4, DataJSON5, DataJSON6, DataJSON7, DataJSON8, DataJSON9, DataJSON10]);
+  const [dataList, setDataList] = useState([DataJSON1, DataJSON2, DataJSON3, DataJSON4, DataJSON5, DataJSON6, DataJSON7, DataJSON8, DataJSON9, DataJSON10, DataJSON11]);
   const [isLoading, setLoading] = useState(false);
   const [displayDefaultFormat, setDisplayDefaultFormat] = useState('default');
   const [imageModal, setImageModal] = useState({

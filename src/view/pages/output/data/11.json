@@ -1,5 +1,66 @@
 {
     "date": "08-03-2024",
-    "title": "Tested traits (Head hat)",
-    "output": []
+    "title": "Tested traits (Mouth)",
+    "output": [
+        {
+            "prompt": "Generate the cat image with following traits: Roman Gladiator Attire clothes , Facial expression featuring a Mouth with the tongue out.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/c7023cde-8b2f-4158-9877-f6927d0c50db/Default_Generate_the_cat_image_with_following_traits_Roman_Gla_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Roman Gladiator Attire clothes , Facial expression featuring a Whispering mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/af3ff533-dba4-4b7f-a081-f5f29131e2bc/Default_Generate_the_cat_image_with_following_traits_Roman_Gla_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Roman Gladiator Attire clothes , Facial expression featuring a Whistling mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/08f27384-d3f5-42da-b1a9-c0e3fb3dcbb4/Default_Generate_the_cat_image_with_following_traits_Roman_Gla_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Roman Gladiator Attire clothes , Facial expression featuring a Sneering mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/cc547577-e07a-427e-9748-7cd18ea2b213/Default_Generate_the_cat_image_with_following_traits_Roman_Gla_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Roman Gladiator Attire clothes , Facial expression featuring a Smacking mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/85faee64-e847-4507-be15-29f4de0b29a0/Default_Generate_the_cat_image_with_following_traits_Roman_Gla_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Roman Gladiator Attire clothes , Facial expression featuring a Laughing mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/75124293-837a-4237-90cf-aba7aded9d9f/Default_Generate_the_cat_image_with_following_traits_Roman_Gla_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Roman Gladiator Attire clothes , Facial expression featuring a Smiling mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/c12e5b14-000c-4ca2-a82a-6af3e7c7c86e/Default_Generate_the_cat_image_with_following_traits_Roman_Gla_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Roman Gladiator Attire clothes , Facial expression featuring a Grinning mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/06c86776-e0bb-4b89-be8e-aa65507129ef/Default_Generate_the_cat_image_with_following_traits_Roman_Gla_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Roman Gladiator Attire clothes , Facial expression featuring a Pursed mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/ed23479e-38fb-4f16-8294-23afcdfca267/Default_Generate_the_cat_image_with_following_traits_Roman_Gla_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Roman Gladiator Attire clothes , Facial expression featuring a Mouth with a fanged smile.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/f8aebcdd-e848-4916-9587-34bbd606e279/Default_Generate_the_cat_image_with_following_traits_Roman_Gla_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Roman Gladiator Attire clothes , Facial expression featuring a roaring mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/dea7c40c-3f56-4ae7-80cc-d80e2f77855e/Default_Generate_the_cat_image_with_following_traits_Roman_Gla_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Roman Gladiator Attire clothes , Facial expression featuring a Playful mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/1826e946-b410-4a60-bf26-3f9111d0595f/Default_Generate_the_cat_image_with_following_traits_Roman_Gla_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Roman Gladiator Attire clothes , Facial expression featuring a Shouting mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/063b0e04-5f62-4227-95c5-9b60b0035757/Default_Generate_the_cat_image_with_following_traits_Roman_Gla_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Roman Gladiator Attire clothes , Facial expression featuring a Yawning mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/028d15b3-51dc-48a9-977d-f7cd15ffd9ca/Default_Generate_the_cat_image_with_following_traits_Roman_Gla_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Roman Gladiator Attire clothes , Facial expression featuring a Munching mouth.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/f3de7124-78f6-49fa-9d89-3dd0d81a7f89/Default_Generate_the_cat_image_with_following_traits_Roman_Gla_0.jpg"
+        }
+    ]
 }

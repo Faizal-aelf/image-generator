@@ -7,6 +7,7 @@
  */
 // GENERIC IMPORT
 import {Box, Button, Chip} from '@mui/material';
+import Magnifier from "react-magnifier";
 import WebPImage from 'react-webp-image';
 
 // UTILS 
@@ -25,7 +26,7 @@ const CardImage = (props) => {
 
     return (
         <Box className={classes.cardImageContainer}>
-            {!isWebpImage && <img onClick={() => handleImageModal?.(sourceImg)} 
+            {!isWebpImage && <Magnifier onClick={() => handleImageModal?.(sourceImg)} 
                 {...(imageRef && { ref: imageRef })} 
                 className={classes.cardImage} src={imageSrc} 
                 width={widthSize}

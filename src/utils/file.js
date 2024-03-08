@@ -44,3 +44,21 @@ export const convertImageUrlToDataUrl = async (imageUrl) => {
     throw error;
   }
 };
+
+export const copyTable = (tableId) => {
+  var table = document.getElementById(tableId);
+    
+    try {
+        var range = document.createRange();
+        range.selectNode(table);
+        window.getSelection().removeAllRanges();
+        window.getSelection().addRange(range);
+        
+        document.execCommand('copy');
+        console.log('Table copied to clipboard!');
+    } catch (err) {
+        console.error('Unable to copy', err);
+    } finally {
+        window.getSelection().removeAllRanges();
+    }
+}

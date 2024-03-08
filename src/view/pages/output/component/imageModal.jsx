@@ -80,22 +80,14 @@ const ImageModal = (props) => {
                     title: 'Original Image',
                     }
                 }/>
-                    <Box>
-                        <CardImage file={
-                            {
-                            imageSrc: pixelImageDataUrl,
-                            imageRef: pixelImageRef,
-                            title: 'Pixelate Image',
-                            }
-                        }/>
-                        
-                    </Box>
                     
                 </Box>
             </Box>
             <Box className={classes.controlLayer}>
                 <Typography variant="subtitle1" gutterBottom>Controller</Typography>
+                <Typography variant="h6" gutterBottom>{props.selectedPrompt}</Typography>
                 <Slider defaultValue={range} valueLabelDisplay="auto" onChange={handleRangeChange}/>
+                
             </Box>
         </Box>
         <i className={clsx("fa fa-times", classes.closeIcon)} onClick={() => props.onClose()}></i>

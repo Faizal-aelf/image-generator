@@ -43,10 +43,10 @@ const RandomGenerator = () => {
         const json = messageList.split("\n");
         navigator.clipboard.writeText([JSON.stringify(json)]);
         
-        const file = new File([JSON.stringify(json)], "prompts.json", {
+        /* const file = new File([JSON.stringify(json)], "prompts.json", {
             type: "application/json;charset=utf-8",
         });
-        saveAs(file);
+        saveAs(file); */
     };
 
     const handleGeneratePrompts = async () => {

@@ -1,0 +1,62 @@
+{
+    "date": "08-03-2024",
+    "title": "Tested traits (Eyes)",
+    "output": [
+        {
+            "prompt": "Generate the cat image with following traits: Picture of a cat with Green eyes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/4f0e9e0e-43c8-4701-9e3c-a0915645b65c/Default_Generate_the_cat_image_with_following_traits_Picture_o_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Picture of a cat with Horn-rimmed glasses eyes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/ea3b75e9-625d-4ebc-a8f1-bc60419a9977/Default_Generate_the_cat_image_with_following_traits_Picture_o_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Picture of a cat with Lashed eyes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/ecd89031-46f6-4edc-b7d7-cebea5be4d0f/Default_Generate_the_cat_image_with_following_traits_Picture_o_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Picture of a cat with Eyepatch-covered eyes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/631ab6d5-1704-49fa-b2a8-534a4f84f487/Default_Generate_the_cat_image_with_following_traits_Picture_o_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Picture of a cat with Classic-shaded eyes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/1e91df22-f376-44ff-9268-818ae31b21e5/Default_Generate_the_cat_image_with_following_traits_Picture_o_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Picture of a cat with Tearful eyes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/9c5c7b02-5ced-45fb-b8ac-183caf35e341/Default_Generate_the_cat_image_with_following_traits_Picture_o_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Picture of a cat with Closed eyes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/abb4139b-64de-4b0c-a80b-672801982e7c/Default_Generate_the_cat_image_with_following_traits_Picture_o_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Picture of a cat with Sunglass-covered eyes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/679e0f67-386f-4ddc-a18f-3f5c3773e335/Default_Generate_the_cat_image_with_following_traits_Picture_o_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Picture of a cat with 3D-glassed eyes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/9d184e30-53f8-4bb0-badf-6fd0b35f3c53/Default_Generate_the_cat_image_with_following_traits_Picture_o_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Picture of a cat with Nerd-glassed eyes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/07160e77-8a38-4925-ba7d-8776d0fe49ab/Default_Generate_the_cat_image_with_following_traits_Picture_o_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Picture of a cat with VR-goggled eyes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/eda94173-ac71-4cfc-9a4c-88122bf18933/Default_Generate_the_cat_image_with_following_traits_Picture_o_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Picture of a cat with Red eyes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/c996af57-0c06-4878-a094-dea749e4b2b3/Default_Generate_the_cat_image_with_following_traits_Picture_o_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Picture of a cat with Blue eyes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/1b00dd7c-6cb1-4be8-a4c8-026c5981c52d/Default_Generate_the_cat_image_with_following_traits_Picture_o_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Picture of a cat with Scarred eyes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/a7ffc015-07e5-4a19-8266-79f12be54458/Default_Generate_the_cat_image_with_following_traits_Picture_o_0.jpg"
+        }
+    ]
+}

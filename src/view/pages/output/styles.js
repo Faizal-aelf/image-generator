@@ -38,7 +38,13 @@ const useStyles = makeStyles(() => ({
         display: 'flex',
         marginBottom: '24px',
         marginTop: '-6px'
-    }
+    },
+    btnContainer: {
+        margin: '8px 0 24px 0',
+        display: 'flex',
+        justifyContent: 'end',
+        gap: '12px',
+    },
 }));
   
 export default useStyles;

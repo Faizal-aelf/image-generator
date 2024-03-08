@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/image-generator/static/css/main.93eb06e6.css",
-    "main.js": "/image-generator/static/js/main.eb57b011.js",
+    "main.js": "/image-generator/static/js/main.d7147059.js",
     "static/js/453.09c31211.chunk.js": "/image-generator/static/js/453.09c31211.chunk.js",
     "static/media/aelf-logo.png": "/image-generator/static/media/aelf-logo.5fc029290722e9be8bf4.png",
     "index.html": "/image-generator/index.html",
     "main.93eb06e6.css.map": "/image-generator/static/css/main.93eb06e6.css.map",
-    "main.eb57b011.js.map": "/image-generator/static/js/main.eb57b011.js.map",
+    "main.d7147059.js.map": "/image-generator/static/js/main.d7147059.js.map",
     "453.09c31211.chunk.js.map": "/image-generator/static/js/453.09c31211.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93eb06e6.css",
-    "static/js/main.eb57b011.js"
+    "static/js/main.d7147059.js"
   ]
 }

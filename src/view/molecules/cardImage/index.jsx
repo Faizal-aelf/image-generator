@@ -17,19 +17,21 @@ import {IMAGE_FORMAT} from '../../../utils/constants';
 import useStyles from './styles';
 
 const CardImage = (props) => {
-    const {imageSrc, imageRef, title, size, handleImageModal, isDownloadable, isWebpImage, ...rest} = props.file;
+    const {imageSrc, imageRef, title, size, handleImageModal, isDownloadable, isWebpImage, imageSize, ...rest} = props.file;
     // DECLARE STYLE
     const classes = useStyles();
     const sourceImg = imageRef?.current?.src || imageSrc;
+    const widthSize = imageSize || '300px';
 
     return (
         <Box className={classes.cardImageContainer}>
             {!isWebpImage && <img onClick={() => handleImageModal?.(sourceImg)} 
                 {...(imageRef && { ref: imageRef })} 
                 className={classes.cardImage} src={imageSrc} 
+                width={widthSize}
             />}
             {isWebpImage && <WebPImage src={imageSrc} className={classes.cardImage}/>}
-            <Box className={classes.cardImageTitle}>{title} {size && <Chip label={size} size="small" variant="outlined" />}</Box>
+            {(title || size) && <Box className={classes.cardImageTitle}>{title} {size && <Chip label={size} size="small" variant="outlined" />}</Box>}
             {isDownloadable && <Button variant="text" onClick={() => handleDownload(imageSrc, IMAGE_FORMAT.WEBP)} startIcon={<i class="fa fa-download"></i>}>Download</Button>}
         </Box>
     )

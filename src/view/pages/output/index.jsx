@@ -9,7 +9,7 @@
 import clsx from 'clsx';
 import { useState } from 'react';
 import moment from 'moment';
-import {AccordionDetails, Box, Accordion, AccordionSummary} from '@mui/material';
+import {AccordionDetails, Box, Accordion, AccordionSummary, ToggleButton, ToggleButtonGroup} from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 // COMMON COMPONENT
@@ -24,11 +24,11 @@ import DataJSON2 from './data/2.json';
 import DataJSON3 from './data/3.json';
 import DataJSON4 from './data/4.json';
 import DataJSON5 from './data/5.json';
-//import DataJSON6 from './data/6.json';
+import DataJSON6 from './data/6.json';
 //import DataJSON7 from './data/7.json';
 //import DataJSON8 from './data/8.json';
 //import DataJSON9 from './data/9.json';
-
+// 
 // STYLE IMPORT
 import useStyles from './styles';
 
@@ -37,8 +37,9 @@ const OutputPage = () => {
   const classes = useStyles();
 
   // STATE VARIABLE
-  const [dataList, setDataList] = useState([DataJSON1, DataJSON2, DataJSON3, DataJSON4, DataJSON5]);
+  const [dataList, setDataList] = useState([DataJSON1, DataJSON2, DataJSON3, DataJSON4, DataJSON5, DataJSON6]);
   const [isLoading, setLoading] = useState(false);
+  const [displayDefaultFormat, setDisplayDefaultFormat] = useState('default');
   const [imageModal, setImageModal] = useState({
     src: null,
     isOpen: false,
@@ -54,15 +55,36 @@ const OutputPage = () => {
     setImageModal({src: null, isOpen: false});
   }
 
+  const handleAlignment = (event, newDisplayFormat) => {
+    setDisplayDefaultFormat(newDisplayFormat);
+  }
+
   return (
     <Container>
       <PageHeader title='Generated Output' subtitle="Here's what you're looking at"  {...{isLoading}}></PageHeader>
       <Box className={classes.container}>
         {dataList.map((item, index) => (
           <Accordion >
-            <AccordionSummary expandIcon={<ExpandMoreIcon />} className={classes.accordionTitle}>{item.title}: {moment(item.date, 'DD-MM-YYYY').format('MMMM Do YYYY')}</AccordionSummary>
+            <AccordionSummary expandIcon={<ExpandMoreIcon />} className={classes.accordionTitle}>
+              {item.title}: {moment(item.date, 'DD-MM-YYYY').format('MMMM Do YYYY')}
+            </AccordionSummary>
             <AccordionDetails>
-              <ul className={classes.datalist}>
+              <Box className={classes.displayFormatContainer}>
+                <ToggleButtonGroup
+                value={displayDefaultFormat}
+                exclusive
+                onChange={handleAlignment}
+                color='primary'
+                >
+                  <ToggleButton value="default" aria-label="left aligned">
+                    <i class="fa fa-address-card-o" ></i>
+                  </ToggleButton>
+                  <ToggleButton value="table" aria-label="centered">
+                    <i class="fa fa-table"></i>
+                  </ToggleButton>
+                </ToggleButtonGroup>
+              </Box>
+              {displayDefaultFormat == 'default' ? <ul className={classes.datalist}>
               {item.output.map((dataItem) => (
                 <li className={classes.dataListItem}>
                   <CardImage file={
@@ -74,7 +96,26 @@ const OutputPage = () => {
                   <Box className={classes.title}>{dataItem.prompt}&nbsp;<i className={clsx("fa fa-clone", classes.copyIcon)} onClick={() => navigator.clipboard.writeText(dataItem.prompt)}></i></Box>
                 </li>
               ))}
-              </ul>
+              </ul> : 
+              <table border={1} width='100%'>
+              {item.output.map((dataItem, index) => (
+                <tr>
+                  <td align='center' valign='center'>{index + 1}</td>
+                  <td width='200'>
+                    <CardImage file={
+                      {
+                        imageSrc: dataItem.image_url,
+                        handleImageModal: handleImageModal,
+                        imageSize: '200px'
+                      }
+                    }/>
+                    </td>
+                    <td>
+                    <Box className={classes.title}>{dataItem.prompt}&nbsp;<i className={clsx("fa fa-clone", classes.copyIcon)} onClick={() => navigator.clipboard.writeText(dataItem.prompt)}></i></Box>
+                  </td>
+                </tr>
+              ))}
+              </table>}
             </AccordionDetails>
           </Accordion>
         ))}

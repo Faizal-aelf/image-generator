@@ -11,7 +11,6 @@ const useStyles = makeStyles(() => ({
         padding: '8px 0',
     },
     cardImage: {
-        width: '300px',
         transform: 'scale(1)',
         borderRadius: '4px',
         boxShadow: '1px 1px 2px #ccc',

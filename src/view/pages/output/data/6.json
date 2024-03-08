@@ -1,5 +1,78 @@
 {
-    "date": "07-03-2024",
-    "title": "Tested traits (Cloths)",
-    "output": []
+    "date": "08-03-2024",
+    "title": "Tested traits (Cloths) with new base image",
+    "output": [
+        {
+            "prompt": "Generate the cat image with following traits: Space Suit clothes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/721fefb1-2a47-48ea-98cb-453e4467c8fc/Default_Generate_the_cat_image_with_following_traits_Space_Sui_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Judge's Robes clothes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/1fbd3d4f-5c0f-4eec-b9db-1ffbb8b5cbba/Default_Generate_the_cat_image_with_following_traits_Judges_Ro_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Cyberpunk Jacket clothes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/243579a0-181f-430d-9cf8-d01901026fae/Default_Generate_the_cat_image_with_following_traits_Cyberpunk_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Trench Coat clothes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/543fb6dc-d718-4a21-85bc-edb066f4857b/Default_Generate_the_cat_image_with_following_traits_Trench_Co_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Peter Pan costume clothes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/caa1b0ce-63d9-4187-a9f9-573d125dcd92/Default_Generate_the_cat_image_with_following_traits_Peter_Pan_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Zoot Suit clothes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/d8509dee-89bd-47cc-9fee-fc7d9c922ee9/Default_Generate_the_cat_image_with_following_traits_Zoot_Suit_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Cowboy Dress clothes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/68faa135-5016-4455-b57d-e302ec3aa371/Default_Generate_the_cat_image_with_following_traits_Cowboy_Dr_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Pikachu costume clothes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/635bfd6b-efa9-4b31-bca7-9f1dbbae30aa/Default_Generate_the_cat_image_with_following_traits_Pikachu_c_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Samurai armor clothes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/e06a57ce-14ef-45ad-a9d3-6d92f821f7df/Default_Generate_the_cat_image_with_following_traits_Samurai_a_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Kimono clothes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/c74eb164-ee1e-438c-896a-19fe3b6fd1da/Default_Generate_the_cat_image_with_following_traits_Kimono_cl_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Ninja attire clothes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/a8b605df-dd62-42ff-8be1-764bae085e83/Default_Generate_the_cat_image_with_following_traits_Ninja_att_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Martial Arts Gi clothes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/f068160c-250a-4864-8607-f979e8334574/Default_Generate_the_cat_image_with_following_traits_Martial_A_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Light Armor clothes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/70c583cd-90b5-4c32-9f48-e9d04f918953/Default_Generate_the_cat_image_with_following_traits_Light_Arm_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: King's Robe clothes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/2e9c0ddb-7480-412b-8c5d-e5cdfda20b9f/Default_Generate_the_cat_image_with_following_traits_Kings_Rob_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Doraemon outfit clothes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/090d53e7-1118-4282-ba8a-8d0c363bed28/Default_Generate_the_cat_image_with_following_traits_Doraemon_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Toga clothes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/8426c008-17bb-4579-8f59-ded28b47a7e6/Default_Generate_the_cat_image_with_following_traits_Toga_clot_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Roman Gladiator Attire clothes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/3bf426b9-af12-4a46-a39b-94ab32ce8eb1/Default_Generate_the_cat_image_with_following_traits_Roman_Gla_0.jpg"
+        },
+        {
+            "prompt": "Generate the cat image with following traits: Fairytale Ball Gown clothes.",
+            "image_url": "https://cdn.leonardo.ai/users/c9ef395b-7a52-4ef6-844d-aa0fca04d644/generations/7cbba602-3feb-4b5b-adfb-2235abab4b1d/Default_Generate_the_cat_image_with_following_traits_Fairytale_0.jpg"
+        }
+    ]
 }

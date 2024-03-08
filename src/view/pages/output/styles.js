@@ -30,6 +30,14 @@ const useStyles = makeStyles(() => ({
     },
     copyIcon: {
         cursor: 'pointer'
+    },
+    displayFormatContainer: {
+        flex: 1,
+        justifyContent: 'flex-start',
+        alignItems: 'center',
+        display: 'flex',
+        marginBottom: '24px',
+        marginTop: '-6px'
     }
 }));
   

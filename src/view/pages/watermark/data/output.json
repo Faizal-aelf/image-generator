@@ -1,0 +1,2794 @@
+[
+    [
+      {
+        "traitType": "clothes",
+        "value": "Cyberpunk Jacket"
+      },
+      {
+        "traitType": "breed",
+        "value": "Snowshoe"
+      },
+      {
+        "traitType": "background",
+        "value": "Verdant Circle"
+      },
+      {
+        "traitType": "trousers",
+        "value": "Feathered Flare Pants"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      },
+      {
+        "traitType": "weaponLeft",
+        "value": "Arbalest"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Sleeveless T"
+      },
+      {
+        "traitType": "breed",
+        "value": "Maine Coon"
+      },
+      {
+        "traitType": "background",
+        "value": "Dystopian Landscape"
+      },
+      {
+        "traitType": "weaponLeft",
+        "value": "Arbalest"
+      },
+      {
+        "traitType": "cap",
+        "value": "Halo"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Biker Vest"
+      },
+      {
+        "traitType": "breed",
+        "value": "Norwegian Forest Cat"
+      },
+      {
+        "traitType": "background",
+        "value": "Realm of Eternal Rain"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Blue Dress"
+      },
+      {
+        "traitType": "breed",
+        "value": "Zetland cat"
+      },
+      {
+        "traitType": "background",
+        "value": "Psychedelic Space Colony"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Blue Dress"
+      },
+      {
+        "traitType": "breed",
+        "value": "Vampire"
+      },
+      {
+        "traitType": "background",
+        "value": "Whimsical Candyland Realm"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Brocade Top"
+      },
+      {
+        "traitType": "breed",
+        "value": "Zetland cat"
+      },
+      {
+        "traitType": "background",
+        "value": "City of Ember"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      },
+      {
+        "traitType": "trousers",
+        "value": "Feathered Flare Pants"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Tuxedo Tee"
+      },
+      {
+        "traitType": "breed",
+        "value": "Norwegian Forest Cat"
+      },
+      {
+        "traitType": "background",
+        "value": "Elven Tree City Canopy"
+      },
+      {
+        "traitType": "trousers",
+        "value": "Feathered Flare Pants"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Bone Tee"
+      },
+      {
+        "traitType": "breed",
+        "value": "Bambino"
+      },
+      {
+        "traitType": "background",
+        "value": "Bioluminescent Jungle"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Plaid Shirt"
+      },
+      {
+        "traitType": "breed",
+        "value": "British Longhair"
+      },
+      {
+        "traitType": "background",
+        "value": "Quantum Nebula"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Green Jersey"
+      },
+      {
+        "traitType": "breed",
+        "value": "Suphalak"
+      },
+      {
+        "traitType": "background",
+        "value": "Desert Sunrise"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Velvet Bolero"
+      },
+      {
+        "traitType": "breed",
+        "value": "Australian Tiffanie"
+      },
+      {
+        "traitType": "background",
+        "value": "Dreamweaver's Observatory"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "trousers",
+        "value": "Feathered Flare Pants"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Sleeveless T"
+      },
+      {
+        "traitType": "breed",
+        "value": "Thai cat"
+      },
+      {
+        "traitType": "background",
+        "value": "Aurora"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Leather Jacket"
+      },
+      {
+        "traitType": "breed",
+        "value": "Tonkinese"
+      },
+      {
+        "traitType": "background",
+        "value": "Spectacular Steampunk Circus"
+      },
+      {
+        "traitType": "cap",
+        "value": "Halo"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Sari"
+      },
+      {
+        "traitType": "breed",
+        "value": "European Burmese"
+      },
+      {
+        "traitType": "background",
+        "value": "City of Eternal Twilight"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Brocade Top"
+      },
+      {
+        "traitType": "breed",
+        "value": "Mekong Bobtail"
+      },
+      {
+        "traitType": "background",
+        "value": "Twilight"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Boat Neck Top"
+      },
+      {
+        "traitType": "breed",
+        "value": "Siberian Forest Cat"
+      },
+      {
+        "traitType": "background",
+        "value": "City of Ember"
+      },
+      {
+        "traitType": "weaponLeft",
+        "value": "Arbalest"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      },
+      {
+        "traitType": "trousers",
+        "value": "Feathered Flare Pants"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Blazer"
+      },
+      {
+        "traitType": "breed",
+        "value": "Tonkinese"
+      },
+      {
+        "traitType": "background",
+        "value": "Mystical Iceberg Archipelago"
+      },
+      {
+        "traitType": "cap",
+        "value": "Halo"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      },
+      {
+        "traitType": "trousers",
+        "value": "Feathered Flare Pants"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Poncho"
+      },
+      {
+        "traitType": "breed",
+        "value": "Birman"
+      },
+      {
+        "traitType": "background",
+        "value": "Moonlit Castle Courtyard"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Peplum Top"
+      },
+      {
+        "traitType": "breed",
+        "value": "American Ringtail"
+      },
+      {
+        "traitType": "background",
+        "value": "Japanese Cherry Blossom Garden"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Dress"
+      },
+      {
+        "traitType": "breed",
+        "value": "Wild Cat"
+      },
+      {
+        "traitType": "background",
+        "value": "Quantum Flux Arena"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      },
+      {
+        "traitType": "cap",
+        "value": "Halo"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Velvet Camisole"
+      },
+      {
+        "traitType": "breed",
+        "value": "Xanadu cat"
+      },
+      {
+        "traitType": "background",
+        "value": "Subterranean Caverns"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      },
+      {
+        "traitType": "weaponLeft",
+        "value": "Arbalest"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      },
+      {
+        "traitType": "trousers",
+        "value": "Feathered Flare Pants"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Mandarin Collar Blouse"
+      },
+      {
+        "traitType": "breed",
+        "value": "Toyger"
+      },
+      {
+        "traitType": "background",
+        "value": "Desert Dunes"
+      },
+      {
+        "traitType": "trousers",
+        "value": "Feathered Flare Pants"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Navy Striped Tee"
+      },
+      {
+        "traitType": "breed",
+        "value": "Wizard"
+      },
+      {
+        "traitType": "background",
+        "value": "Moonlit Castle Courtyard"
+      },
+      {
+        "traitType": "trousers",
+        "value": "Feathered Flare Pants"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Oversized Sweater"
+      },
+      {
+        "traitType": "breed",
+        "value": "Selkirk Rex"
+      },
+      {
+        "traitType": "background",
+        "value": "Aqua Fade"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Stunt Jacket"
+      },
+      {
+        "traitType": "breed",
+        "value": "American Bobtail"
+      },
+      {
+        "traitType": "background",
+        "value": "Parallel Dimension Gateway"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Toga"
+      },
+      {
+        "traitType": "breed",
+        "value": "Napoleon cat"
+      },
+      {
+        "traitType": "background",
+        "value": "Dreamweaver's Observatory"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Knit Pullover"
+      },
+      {
+        "traitType": "breed",
+        "value": "Minuet"
+      },
+      {
+        "traitType": "background",
+        "value": "Surreal Sculpture Garden"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "weaponLeft",
+        "value": "Arbalest"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Embroidered Blouse"
+      },
+      {
+        "traitType": "breed",
+        "value": "Troll"
+      },
+      {
+        "traitType": "background",
+        "value": "Fiery Inferno"
+      },
+      {
+        "traitType": "weaponLeft",
+        "value": "Arbalest"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Boater Jacket"
+      },
+      {
+        "traitType": "breed",
+        "value": "Egyptian Mau"
+      },
+      {
+        "traitType": "background",
+        "value": "Subterranean Caverns"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      },
+      {
+        "traitType": "cap",
+        "value": "Halo"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Tech Jacket"
+      },
+      {
+        "traitType": "breed",
+        "value": "Ocicat"
+      },
+      {
+        "traitType": "background",
+        "value": "Mountain Majesty"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      },
+      {
+        "traitType": "trousers",
+        "value": "Feathered Flare Pants"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Black Holes T"
+      },
+      {
+        "traitType": "breed",
+        "value": "Cymric"
+      },
+      {
+        "traitType": "background",
+        "value": "Dystopian Landscape"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      },
+      {
+        "traitType": "trousers",
+        "value": "Feathered Flare Pants"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Pajamas"
+      },
+      {
+        "traitType": "breed",
+        "value": "Australian Tiffanie"
+      },
+      {
+        "traitType": "background",
+        "value": "Arctic Tundra"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Leather Jacket"
+      },
+      {
+        "traitType": "breed",
+        "value": "British Shorthair"
+      },
+      {
+        "traitType": "background",
+        "value": "Mythical Ice Palace"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Light Armor"
+      },
+      {
+        "traitType": "breed",
+        "value": "Kalahari Sand Cat"
+      },
+      {
+        "traitType": "background",
+        "value": "Shadow Realm"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Wrap Top"
+      },
+      {
+        "traitType": "breed",
+        "value": "Kurilian Bobtail"
+      },
+      {
+        "traitType": "background",
+        "value": "Quantum Nebula"
+      },
+      {
+        "traitType": "weaponLeft",
+        "value": "Arbalest"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      },
+      {
+        "traitType": "trousers",
+        "value": "Feathered Flare Pants"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Cloak"
+      },
+      {
+        "traitType": "breed",
+        "value": "Korean Bobtail"
+      },
+      {
+        "traitType": "background",
+        "value": "Holographic Festival Grounds"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      },
+      {
+        "traitType": "cap",
+        "value": "Halo"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Boat Neck Top"
+      },
+      {
+        "traitType": "breed",
+        "value": "Siberian cat"
+      },
+      {
+        "traitType": "background",
+        "value": "Coastal Cliffs"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      },
+      {
+        "traitType": "trousers",
+        "value": "Feathered Flare Pants"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      },
+      {
+        "traitType": "weaponLeft",
+        "value": "Arbalest"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Roman Gladiator Attire"
+      },
+      {
+        "traitType": "breed",
+        "value": "Toybob"
+      },
+      {
+        "traitType": "background",
+        "value": "Floating Lotus Sanctuary"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Fishnet Top"
+      },
+      {
+        "traitType": "breed",
+        "value": "Manx Mix cat"
+      },
+      {
+        "traitType": "background",
+        "value": "Twilight"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      },
+      {
+        "traitType": "cap",
+        "value": "Halo"
+      },
+      {
+        "traitType": "trousers",
+        "value": "Feathered Flare Pants"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Navy Striped Tee"
+      },
+      {
+        "traitType": "breed",
+        "value": "Korat"
+      },
+      {
+        "traitType": "background",
+        "value": "Sublime Waterfall"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Leather Punk Jacket"
+      },
+      {
+        "traitType": "breed",
+        "value": "Khao Manee"
+      },
+      {
+        "traitType": "background",
+        "value": "Enchanted Glade"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      },
+      {
+        "traitType": "trousers",
+        "value": "Feathered Flare Pants"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Leather Punk Jacket"
+      },
+      {
+        "traitType": "breed",
+        "value": "Siamese"
+      },
+      {
+        "traitType": "background",
+        "value": "Firefly-lit Night Market"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Tunic Dress"
+      },
+      {
+        "traitType": "breed",
+        "value": "Singapura"
+      },
+      {
+        "traitType": "background",
+        "value": "Teal Sunrise"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Wool Turtleneck"
+      },
+      {
+        "traitType": "breed",
+        "value": "Norwegian Forest Cat"
+      },
+      {
+        "traitType": "background",
+        "value": "Mountain Majesty"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      },
+      {
+        "traitType": "trousers",
+        "value": "Feathered Flare Pants"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Judge's Robes"
+      },
+      {
+        "traitType": "breed",
+        "value": "Bengal"
+      },
+      {
+        "traitType": "background",
+        "value": "Indigo Vortex"
+      },
+      {
+        "traitType": "weaponLeft",
+        "value": "Arbalest"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Shawl"
+      },
+      {
+        "traitType": "breed",
+        "value": "Devil"
+      },
+      {
+        "traitType": "background",
+        "value": "Coastal Cliffs"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      },
+      {
+        "traitType": "cap",
+        "value": "Halo"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Kilt"
+      },
+      {
+        "traitType": "breed",
+        "value": "Minskin"
+      },
+      {
+        "traitType": "background",
+        "value": "Celestial Starship Dock"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      },
+      {
+        "traitType": "weaponLeft",
+        "value": "Arbalest"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Tweed Suit"
+      },
+      {
+        "traitType": "breed",
+        "value": "Maine Coon"
+      },
+      {
+        "traitType": "background",
+        "value": "Underwater Abyssal Realm"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Cowboy Shirt"
+      },
+      {
+        "traitType": "breed",
+        "value": "Oriental Longhair"
+      },
+      {
+        "traitType": "background",
+        "value": "Verdant Circle"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Vietnam Jacket"
+      },
+      {
+        "traitType": "breed",
+        "value": "Kanaani"
+      },
+      {
+        "traitType": "background",
+        "value": "Glittering Cosmos"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Space Suit"
+      },
+      {
+        "traitType": "breed",
+        "value": "Thai Lilac"
+      },
+      {
+        "traitType": "background",
+        "value": "Desert Dunes"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      },
+      {
+        "traitType": "weaponLeft",
+        "value": "Arbalest"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Vest"
+      },
+      {
+        "traitType": "breed",
+        "value": "American Shorthair"
+      },
+      {
+        "traitType": "background",
+        "value": "City of Ember"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "weaponLeft",
+        "value": "Arbalest"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Mandarin Collar Blouse"
+      },
+      {
+        "traitType": "breed",
+        "value": "Korean Bobtail"
+      },
+      {
+        "traitType": "background",
+        "value": "Crimson Void"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      },
+      {
+        "traitType": "cap",
+        "value": "Halo"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Baseball Tee"
+      },
+      {
+        "traitType": "breed",
+        "value": "Egyptian Mau Mix"
+      },
+      {
+        "traitType": "background",
+        "value": "Aurora Borealis Wonderland"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      },
+      {
+        "traitType": "trousers",
+        "value": "Feathered Flare Pants"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Leather Jacket"
+      },
+      {
+        "traitType": "breed",
+        "value": "Serengeti cat"
+      },
+      {
+        "traitType": "background",
+        "value": "Desert Dunes"
+      },
+      {
+        "traitType": "weaponLeft",
+        "value": "Arbalest"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Cape"
+      },
+      {
+        "traitType": "breed",
+        "value": "Wizard"
+      },
+      {
+        "traitType": "background",
+        "value": "Lunar Zen Garden"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Nurse Scrubs"
+      },
+      {
+        "traitType": "breed",
+        "value": "Ukrainian Levkoy"
+      },
+      {
+        "traitType": "background",
+        "value": "Mystical Marsh"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Mandarin Collar Blouse"
+      },
+      {
+        "traitType": "breed",
+        "value": "American Polydactyl"
+      },
+      {
+        "traitType": "background",
+        "value": "Crystalized Moon Garden"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      },
+      {
+        "traitType": "trousers",
+        "value": "Feathered Flare Pants"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Baseball Tee"
+      },
+      {
+        "traitType": "breed",
+        "value": "Rex"
+      },
+      {
+        "traitType": "background",
+        "value": "Peach Fade"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      },
+      {
+        "traitType": "weaponLeft",
+        "value": "Arbalest"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Oversized Sweater"
+      },
+      {
+        "traitType": "breed",
+        "value": "Australian Tiffanie"
+      },
+      {
+        "traitType": "background",
+        "value": "Parallel Dimension Gateway"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      },
+      {
+        "traitType": "trousers",
+        "value": "Feathered Flare Pants"
+      },
+      {
+        "traitType": "cap",
+        "value": "Halo"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Hanbok"
+      },
+      {
+        "traitType": "breed",
+        "value": "Australian Tiffanie"
+      },
+      {
+        "traitType": "background",
+        "value": "Mystical Iceberg Archipelago"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      },
+      {
+        "traitType": "cap",
+        "value": "Halo"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Robe"
+      },
+      {
+        "traitType": "breed",
+        "value": "Sphynx"
+      },
+      {
+        "traitType": "background",
+        "value": "Haunted Victorian Mansion"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Pikachu"
+      },
+      {
+        "traitType": "breed",
+        "value": "Cornish Rex"
+      },
+      {
+        "traitType": "background",
+        "value": "Abyssal Seafloor City"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Pikachu"
+      },
+      {
+        "traitType": "breed",
+        "value": "LaPerm"
+      },
+      {
+        "traitType": "background",
+        "value": "Crimson Gradient"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Chiffon Blouse"
+      },
+      {
+        "traitType": "breed",
+        "value": "Australian Tiffanie"
+      },
+      {
+        "traitType": "background",
+        "value": "Desert Mirage Citadel"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      },
+      {
+        "traitType": "cap",
+        "value": "Halo"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Green Jersey"
+      },
+      {
+        "traitType": "breed",
+        "value": "Egyptian Mau"
+      },
+      {
+        "traitType": "background",
+        "value": "Ethereal Aurora Waterfall"
+      },
+      {
+        "traitType": "weaponLeft",
+        "value": "Arbalest"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Biker Vest"
+      },
+      {
+        "traitType": "breed",
+        "value": "Exotic Longhair"
+      },
+      {
+        "traitType": "background",
+        "value": "Celestial Bridge to Infinity"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      },
+      {
+        "traitType": "weaponLeft",
+        "value": "Arbalest"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Bell Sleeve Sweater"
+      },
+      {
+        "traitType": "breed",
+        "value": "Singapura"
+      },
+      {
+        "traitType": "background",
+        "value": "Cosmic Carnival Extravaganza"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Hip Hop clothes"
+      },
+      {
+        "traitType": "breed",
+        "value": "Somali cat"
+      },
+      {
+        "traitType": "background",
+        "value": "Space Odyssey"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Knitted Tank"
+      },
+      {
+        "traitType": "breed",
+        "value": "Bengal"
+      },
+      {
+        "traitType": "background",
+        "value": "Aurora Borealis Wonderland"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      },
+      {
+        "traitType": "weaponLeft",
+        "value": "Arbalest"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Hanbok"
+      },
+      {
+        "traitType": "breed",
+        "value": "Turkish Van"
+      },
+      {
+        "traitType": "background",
+        "value": "Moonlit Beach"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      },
+      {
+        "traitType": "weaponLeft",
+        "value": "Arbalest"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Pinstripe Shirt"
+      },
+      {
+        "traitType": "breed",
+        "value": "Russian White"
+      },
+      {
+        "traitType": "background",
+        "value": "Rolling Hills"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Tiered Ruffle Blouse"
+      },
+      {
+        "traitType": "breed",
+        "value": "Siamese"
+      },
+      {
+        "traitType": "background",
+        "value": "Floating Sky Islands"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      },
+      {
+        "traitType": "cap",
+        "value": "Halo"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Zoot Suit"
+      },
+      {
+        "traitType": "breed",
+        "value": "Burmilla"
+      },
+      {
+        "traitType": "background",
+        "value": "Coastal Cliffs"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      },
+      {
+        "traitType": "cap",
+        "value": "Halo"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Batwing Sleeve Top"
+      },
+      {
+        "traitType": "breed",
+        "value": "Brazilian Longhair"
+      },
+      {
+        "traitType": "background",
+        "value": "Dorian Purgatory"
+      },
+      {
+        "traitType": "trousers",
+        "value": "Feathered Flare Pants"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Pimp Coat"
+      },
+      {
+        "traitType": "breed",
+        "value": "Bambino"
+      },
+      {
+        "traitType": "background",
+        "value": "Elven Tree City Canopy"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "trousers",
+        "value": "Feathered Flare Pants"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      },
+      {
+        "traitType": "cap",
+        "value": "Halo"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Vest"
+      },
+      {
+        "traitType": "breed",
+        "value": "Chinese Crested"
+      },
+      {
+        "traitType": "background",
+        "value": "Dystopian Landscape"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      },
+      {
+        "traitType": "cap",
+        "value": "Halo"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Bolero Jacket"
+      },
+      {
+        "traitType": "breed",
+        "value": "California Spangled"
+      },
+      {
+        "traitType": "background",
+        "value": "Space Odyssey"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Oversized Sweater"
+      },
+      {
+        "traitType": "breed",
+        "value": "Lambkin"
+      },
+      {
+        "traitType": "background",
+        "value": "Quantum Garden of Tranquility"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      },
+      {
+        "traitType": "weaponLeft",
+        "value": "Arbalest"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Frilled Blouse"
+      },
+      {
+        "traitType": "breed",
+        "value": "Toybob"
+      },
+      {
+        "traitType": "background",
+        "value": "Pastel Stripes"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Tiered Ruffle Blouse"
+      },
+      {
+        "traitType": "breed",
+        "value": "Oriental Longhair"
+      },
+      {
+        "traitType": "background",
+        "value": "Desert Mirage Citadel"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Varsity Jacket"
+      },
+      {
+        "traitType": "breed",
+        "value": "Italian Rex"
+      },
+      {
+        "traitType": "background",
+        "value": "Lush Rainforest"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "cap",
+        "value": "Halo"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Bone Tee"
+      },
+      {
+        "traitType": "breed",
+        "value": "Kurilian Bobtail"
+      },
+      {
+        "traitType": "background",
+        "value": "Cosmic Carnival Extravaganza"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Cyberpunk Jacket"
+      },
+      {
+        "traitType": "breed",
+        "value": "Khao Manee"
+      },
+      {
+        "traitType": "background",
+        "value": "Magenta Dusk"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Plaid Shirt"
+      },
+      {
+        "traitType": "breed",
+        "value": "Himalayan Mix"
+      },
+      {
+        "traitType": "background",
+        "value": "Post-Cybernetic Apocalypse"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Halter Top"
+      },
+      {
+        "traitType": "breed",
+        "value": "Napoleon cat"
+      },
+      {
+        "traitType": "background",
+        "value": "Monochrome Halo"
+      },
+      {
+        "traitType": "weaponLeft",
+        "value": "Arbalest"
+      },
+      {
+        "traitType": "trousers",
+        "value": "Feathered Flare Pants"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Lab Coat"
+      },
+      {
+        "traitType": "breed",
+        "value": "Thai Lilac"
+      },
+      {
+        "traitType": "background",
+        "value": "Ethereal Fog"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Black T"
+      },
+      {
+        "traitType": "breed",
+        "value": "Havana Brown"
+      },
+      {
+        "traitType": "background",
+        "value": "Ancient Woodlands"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Guayabera"
+      },
+      {
+        "traitType": "breed",
+        "value": "Exotic Shorthair"
+      },
+      {
+        "traitType": "background",
+        "value": "Mystical Crystal Lagoon"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      },
+      {
+        "traitType": "cap",
+        "value": "Halo"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Cape"
+      },
+      {
+        "traitType": "breed",
+        "value": "Manx Mix cat"
+      },
+      {
+        "traitType": "background",
+        "value": "Whimsical Candyland Realm"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      },
+      {
+        "traitType": "wings",
+        "value": "Demon Wings"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      },
+      {
+        "traitType": "weaponLeft",
+        "value": "Arbalest"
+      },
+      {
+        "traitType": "trousers",
+        "value": "Feathered Flare Pants"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Striped Sweater"
+      },
+      {
+        "traitType": "breed",
+        "value": "Chantilly-Tiffany"
+      },
+      {
+        "traitType": "background",
+        "value": "Moonlit Beach"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Vietnam Jacket"
+      },
+      {
+        "traitType": "breed",
+        "value": "Tonkinese"
+      },
+      {
+        "traitType": "background",
+        "value": "Metal Sparks"
+      },
+      {
+        "traitType": "weaponLeft",
+        "value": "Arbalest"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      },
+      {
+        "traitType": "cap",
+        "value": "Halo"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Wrap Front Sweater"
+      },
+      {
+        "traitType": "breed",
+        "value": "Toyger"
+      },
+      {
+        "traitType": "background",
+        "value": "Desert Dunes"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      },
+      {
+        "traitType": "cap",
+        "value": "Halo"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Kings Robe"
+      },
+      {
+        "traitType": "breed",
+        "value": "Foldex"
+      },
+      {
+        "traitType": "background",
+        "value": "Aqua Fade"
+      },
+      {
+        "traitType": "cap",
+        "value": "Halo"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      },
+      {
+        "traitType": "face",
+        "value": "Double Face"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Frilled Blouse"
+      },
+      {
+        "traitType": "breed",
+        "value": "Pixie-bob"
+      },
+      {
+        "traitType": "background",
+        "value": "Japanese Cherry Blossom Garden"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      },
+      {
+        "traitType": "trousers",
+        "value": "Feathered Flare Pants"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Waterfall Cardigan"
+      },
+      {
+        "traitType": "breed",
+        "value": "Thai Lilac"
+      },
+      {
+        "traitType": "background",
+        "value": "Galactic Outpost"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Samurai"
+      },
+      {
+        "traitType": "breed",
+        "value": "Chantilly"
+      },
+      {
+        "traitType": "background",
+        "value": "Orange Radiance"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Turtleneck"
+      },
+      {
+        "traitType": "breed",
+        "value": "Elf cat"
+      },
+      {
+        "traitType": "background",
+        "value": "Celestial Starship Dock"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      },
+      {
+        "traitType": "zodica",
+        "value": "Aries"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Batwing Sleeve Top"
+      },
+      {
+        "traitType": "breed",
+        "value": "Ape"
+      },
+      {
+        "traitType": "background",
+        "value": "Futuristic Floating Islands"
+      },
+      {
+        "traitType": "tails",
+        "value": "Nine Tails"
+      },
+      {
+        "traitType": "belts",
+        "value": "Leather Belt"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      },
+      {
+        "traitType": "ride",
+        "value": "Sports Car"
+      },
+      {
+        "traitType": "eyes",
+        "value": "Alienate"
+      }
+    ],
+    [
+      {
+        "traitType": "clothes",
+        "value": "Tailcoat"
+      },
+      {
+        "traitType": "breed",
+        "value": "Ghost"
+      },
+      {
+        "traitType": "background",
+        "value": "Bustling street"
+      },
+      {
+        "traitType": "shoes",
+        "value": "Golden Boots"
+      },
+      {
+        "traitType": "mouth",
+        "value": "Bubble Gum"
+      },
+      {
+        "traitType": "accessoryRight",
+        "value": "Yarn"
+      }
+    ]
+  ]

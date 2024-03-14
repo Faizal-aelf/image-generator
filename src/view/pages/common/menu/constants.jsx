@@ -49,6 +49,12 @@ export const utilsMenuItems = [
         link: PATH.REMOVE_BACKGROUND_PATH,
     },
     {
+        id: 'WATERMARK',
+        label: 'Watermark',
+        icon: <i className="fa fa-tint"></i>,
+        link: PATH.WATERMARK_PATH,
+    },
+    {
         id: 'OUTPUT',
         label: 'Output',
         icon: <i className="fa fa-bolt"></i>,

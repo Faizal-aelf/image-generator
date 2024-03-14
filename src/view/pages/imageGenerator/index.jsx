@@ -45,7 +45,7 @@ const ImageGeneratorPage = () => {
             const response = await axios.post(
                 GENERATE_IMAGE_API,
                     {
-                        ...params
+                        ...params,
                     },
                     {
                     headers: {
